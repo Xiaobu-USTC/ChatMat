@@ -1,0 +1,3238 @@
+mpirank = 0               
+mpisize = 2               
+Time for reading the raw input file is 6.98641e-05 [s]
+
+
+*********************************************************************
+Common information
+*********************************************************************
+
+Super cell                           = +1.16843250e+01 +2.22199330e+01 +8.63391300e+00 
+Grid Wavefunction                    = 34              64              26              
+Grid Density                         = 68              128             52              
+Mixing dimension                     = 9               
+Mixing variable                      = potential       
+Mixing type                          = anderson        
+Mixing Steplength                    = +8.00000000e-01 
+Temperature                          = +3.00000000e+02 [K]   
+Extra states                         = 0               
+Smearing scheme                      = FD              
+PeriodTable File                     =                 
+Pseudo Type                          = ONCV            
+PW Solver                            = LOBPCG          
+XC Type                              = XC_LDA_XC_TETER93
+SCF Outer Tol                        = +1.00000000e-06 
+SCF Outer MaxIter                    = 30              
+SCF Free Energy Per Atom Tol         = +1.00000000e-04 
+Eig Min Tolerence                    = +1.00000000e-03 
+Eig Tolerence                        = +1.00000000e-20 
+Eig MaxIter                          = 3               
+Eig Tolerance Dyn                    = false   
+Num unused state                     = 0               
+EcutWavefunction                     = +4.00000000e+01 
+Density GridFactor                   = +2.00000000e+00 
+Use Atom Density                     = false   
+Use VLocal                           = false   
+RestartDensity                       = false   
+RestartWfn                           = false   
+OutputDensity                        = false   
+OutputPotential                      = false   
+Number of Extra Electron             = 0               
+
+*********************************************************************
+PWDFT information
+*********************************************************************
+
+SCF Phi MaxIter                      = 10              
+SCF Phi Tol                          = +1.00000000e-06 
+Hybrid ACE                           = true    
+Hybrid DF                            = false   
+Hybrid Active Init                   = false   
+Hybrid Mixing Type                   = nested          
+Hybrid DF Num Mu                     = +6.00000000e+00 
+Hybrid DF Num GaussianRandom         = +2.00000000e+00 
+Hybrid DF Tolerance                  = +1.00000000e-20 
+EXX div type                         = 1               
+
+ UPF version: 2
+XC_LDA_XC_TETER93  XCId = 20
+
+Computing the local pseudopotential
+Time for local pseudopotential 0.44141579
+Sum of Pseudocharge                          = -3.33753362e+03 
+Number of Occupied States                    = 8               
+After adjustment, Sum of Pseudocharge        = +1.60000000e+01 
+Computing the non-local pseudopotential
+Total number of nonlocal pseudopotential = 32              
+Time for nonlocal pseudopotential 0.015528455
+Time for calculating the pseudopotential for the Hamiltonian = 0.458047 [s]
+Spinor setup finished.
+Eigensolver setup finished .
+Generating initial density through linear combination of pseudocharges.
+Initial density. Sum of density      = +1.60000000e+01 
+Rescaled density. Sum of density      = +1.60000000e+01 
+SCF setup finished .
+ 
+Time for computing total xc energy in XC is 0.00060098991 [s]
+
+
+*********************************************************************
+Starting regular SCF iteration.
+*********************************************************************
+
+
+*********************************************************************
+SCF iteration # 1
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0058250725
+Time for iterFFTFine      = 8  timeFFTFine      = 0.05159672
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00044573843
+Time for iterOther        = 1  timeOther        = 0.015290003
+Time for psi.AddMultSpinorFineR2C is 0.073253289 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0057205781
+Time for iterFFTFine      = 8  timeFFTFine      = 0.051519852
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00045999885
+Time for iterOther        = 1  timeOther        = 0.0095039271
+Time for psi.AddMultSpinorFineR2C is 0.067256052 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0058901235
+Time for iterFFTFine      = 8  timeFFTFine      = 0.049954109
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00046215579
+Time for iterOther        = 1  timeOther        = 0.0098291524
+Time for psi.AddMultSpinorFineR2C is 0.066189218 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005235035
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046890493
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038572028
+Time for iterOther        = 1  timeOther        = 0.0092092454
+Time for psi.AddMultSpinorFineR2C is 0.061761416 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0056052282
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047192339
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00058308616
+Time for iterOther        = 1  timeOther        = 0.013243068
+Time for psi.AddMultSpinorFineR2C is 0.066681672 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005704347
+Time for iterFFTFine      = 8  timeFFTFine      = 0.051179707
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00039326772
+Time for iterOther        = 1  timeOther        = 0.0090707056
+Time for psi.AddMultSpinorFineR2C is 0.066397477 [s]
+
+
+After 5 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.2125326
+
+The minimum norm of the residual is 0.0003844957
+
+Time for iterGemmT     = 55  timeGemmT     = 0.010925073
+Time for iterGemmN     = 34  timeGemmN     = 0.010339543
+Time for iterAllreduce = 55  timeAllreduce = 0.0011550523
+Time for iterAlltoallv = 19  timeAlltoallv = 0.025057476
+Time for iterSpinor    = 11  timeSpinor    = 0.43529877
+Time for iterTrsm      = 1  timeTrsm      = 0.0001902543
+Time for iterMpirank0  = 37  timeMpirank0  = 0.0010387599
+
+Time for the eigensolver is 0.4989174 [s]
+
+Time for ham.EigVal() in PWDFT is 7.4133277e-07 [s]
+
+Time for computing occupation rate in PWDFT is 6.8545341e-07 [s]
+
+Raw data, sum of density          = 15.999999
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.065422002 [s]
+
+ 
+Time for computing total xc energy in XC is 0.0005511865 [s]
+
+Time for computing XC potential in PWDFT is 0.019635994 [s]
+
+Time for computing Hartree potential in PWDFT is 0.02790188 [s]
+
+Time for computing total potential in PWDFT is 0.0018635169 [s]
+
+Time for computing energy in PWDFT is 0.00083816051 [s]
+
+band#    = 0    eigval   = -2.32543855e-01 resval   = +3.84495700e-04 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.84907201e-01 resval   = +6.13227254e-02 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.64607612e-01 resval   = +9.29846051e-02 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -7.80432011e-02 resval   = +5.54383467e-02 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -5.82611921e-02 resval   = +5.64499653e-02 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -5.43955327e-02 resval   = +8.36879303e-02 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -3.28859420e-02 resval   = +8.84910027e-02 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = +9.03937381e-03 resval   = +2.12532600e-01 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.67797749e+01 [au]  
+Efree             = -1.67797749e+01 [au]  
+EfreeHarris       = -1.67337990e+01 [au]  
+Ekin              = -1.59321033e+00 [au]  
+Ehart             = +4.88992503e-02 [au]  
+EVxc              = -3.73851133e+00 [au]  
+Exc               = -2.87617663e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51865645e+01 [au]  
+Fermi             = +9.03937381e-03 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = +2.45973881e-01 [eV]  
+norm(out-in)/norm(in) = +1.64691622e-01 
+Efree diff per atom   = +2.87349323e-03 
+Time for computing potential mixing in PWDFT is 0.0075390786 [s]
+
+Total wall clock time for this SCF iteration = 0.62426559 [s]
+
+*********************************************************************
+SCF iteration # 2
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0056491196
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048115868
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00042825937
+Time for iterOther        = 1  timeOther        = 0.011549253
+Time for psi.AddMultSpinorFineR2C is 0.065798316 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0056304336
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048631959
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037844479
+Time for iterOther        = 1  timeOther        = 0.008457344
+Time for psi.AddMultSpinorFineR2C is 0.063127577 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052657425
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047455106
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00047443435
+Time for iterOther        = 1  timeOther        = 0.0094923936
+Time for psi.AddMultSpinorFineR2C is 0.062727418 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053883046
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04801226
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0004495196
+Time for iterOther        = 1  timeOther        = 0.0089000799
+Time for psi.AddMultSpinorFineR2C is 0.06278684 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0057265759
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050355107
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00046742335
+Time for iterOther        = 1  timeOther        = 0.0099264458
+Time for psi.AddMultSpinorFineR2C is 0.066527419 [s]
+
+
+After 4 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.057037155
+
+The minimum norm of the residual is 0.00053637693
+
+Time for iterGemmT     = 43  timeGemmT     = 0.007401254
+Time for iterGemmN     = 27  timeGemmN     = 0.0074127093
+Time for iterAllreduce = 43  timeAllreduce = 0.0013722368
+Time for iterAlltoallv = 16  timeAlltoallv = 0.020205226
+Time for iterSpinor    = 9  timeSpinor    = 0.34580797
+Time for iterTrsm      = 1  timeTrsm      = 0.00016786903
+Time for iterMpirank0  = 30  timeMpirank0  = 0.00058658794
+
+Time for the eigensolver is 0.39269403 [s]
+
+Time for ham.EigVal() in PWDFT is 9.6857548e-07 [s]
+
+Time for computing occupation rate in PWDFT is 6.2584877e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.062179677 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050475448 [s]
+
+Time for computing XC potential in PWDFT is 0.018053737 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025828768 [s]
+
+Time for computing total potential in PWDFT is 0.00095627457 [s]
+
+Time for computing energy in PWDFT is 0.00072914362 [s]
+
+band#    = 0    eigval   = -2.44613421e-01 resval   = +5.36376930e-04 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.97978896e-01 resval   = +1.21378234e-03 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.85859492e-01 resval   = +1.54933609e-03 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -9.81777658e-02 resval   = +1.99115238e-02 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -9.59112604e-02 resval   = +1.66549152e-02 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.84257885e-02 resval   = +1.47948576e-02 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.54681466e-02 resval   = +5.70371547e-02 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.93355843e-02 resval   = +3.89049689e-02 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.77152725e+01 [au]  
+Efree             = -1.77152725e+01 [au]  
+EfreeHarris       = -1.72381053e+01 [au]  
+Ekin              = -2.05154071e+00 [au]  
+Ehart             = +5.36045612e-01 [au]  
+EVxc              = -3.78085217e+00 [au]  
+Exc               = -2.90853831e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.56637318e+01 [au]  
+Fermi             = -4.93355843e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.34248958e+00 [eV]  
+norm(out-in)/norm(in) = +1.15352934e+00 
+Efree diff per atom   = +2.98229502e-02 
+  Rank of dfmat = 1               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.039451394 [s]
+
+Total wall clock time for this SCF iteration = 0.54210242 [s]
+
+*********************************************************************
+SCF iteration # 3
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0057843998
+Time for iterFFTFine      = 8  timeFFTFine      = 0.049349848
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00042333081
+Time for iterOther        = 1  timeOther        = 0.010317866
+Time for psi.AddMultSpinorFineR2C is 0.065919526 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.006428007
+Time for iterFFTFine      = 8  timeFFTFine      = 0.052326988
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00046131015
+Time for iterOther        = 1  timeOther        = 0.009910401
+Time for psi.AddMultSpinorFineR2C is 0.069195814 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0096824057
+Time for iterFFTFine      = 8  timeFFTFine      = 0.084073227
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0006560348
+Time for iterOther        = 1  timeOther        = 0.012690343
+Time for psi.AddMultSpinorFineR2C is 0.10718105 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054464079
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047536626
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036757439
+Time for iterOther        = 1  timeOther        = 0.0088215657
+Time for psi.AddMultSpinorFineR2C is 0.062206503 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0099483705
+
+The minimum norm of the residual is 0.00026273233
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0059646331
+Time for iterGemmN     = 20  timeGemmN     = 0.0067886636
+Time for iterAllreduce = 31  timeAllreduce = 0.0027282126
+Time for iterAlltoallv = 13  timeAlltoallv = 0.015181068
+Time for iterSpinor    = 7  timeSpinor    = 0.32888742
+Time for iterTrsm      = 1  timeTrsm      = 0.00016763434
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00051753968
+
+Time for the eigensolver is 0.36764859 [s]
+
+Time for ham.EigVal() in PWDFT is 6.2584877e-07 [s]
+
+Time for computing occupation rate in PWDFT is 6.8545341e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.065088697 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00055269524 [s]
+
+Time for computing XC potential in PWDFT is 0.019694865 [s]
+
+Time for computing Hartree potential in PWDFT is 0.028571539 [s]
+
+Time for computing total potential in PWDFT is 0.0017627329 [s]
+
+Time for computing energy in PWDFT is 0.00089350343 [s]
+
+band#    = 0    eigval   = -2.33427987e-01 resval   = +2.62732333e-04 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.95433772e-01 resval   = +4.64623256e-04 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91992537e-01 resval   = +4.27506511e-04 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.78366992e-02 resval   = +9.94837050e-03 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.60627179e-02 resval   = +5.01339176e-03 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.84149920e-02 resval   = +2.02957354e-03 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.47855579e-02 resval   = +2.34341470e-03 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.85015848e-02 resval   = +4.38720874e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71857606e+01 [au]  
+Efree             = -1.71857606e+01 [au]  
+EfreeHarris       = -1.76566434e+01 [au]  
+Ekin              = -1.99291170e+00 [au]  
+Ehart             = +5.44298524e-02 [au]  
+EVxc              = -3.73531884e+00 [au]  
+Exc               = -2.87373791e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51928489e+01 [au]  
+Fermi             = -4.85015848e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.31979530e+00 [eV]  
+norm(out-in)/norm(in) = +2.15558262e-01 
+Efree diff per atom   = +2.94301772e-02 
+  Rank of dfmat = 2               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.028354958 [s]
+
+Total wall clock time for this SCF iteration = 0.51839326 [s]
+
+*********************************************************************
+SCF iteration # 4
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0075702965
+Time for iterFFTFine      = 8  timeFFTFine      = 0.065684341
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00054020062
+Time for iterOther        = 1  timeOther        = 0.01160631
+Time for psi.AddMultSpinorFineR2C is 0.085473116 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0067957118
+Time for iterFFTFine      = 8  timeFFTFine      = 0.060579058
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00046196207
+Time for iterOther        = 1  timeOther        = 0.010210332
+Time for psi.AddMultSpinorFineR2C is 0.078113623 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055856481
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048082955
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00041764602
+Time for iterOther        = 1  timeOther        = 0.0089307651
+Time for psi.AddMultSpinorFineR2C is 0.063063603 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055312552
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047980528
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00039064884
+Time for iterOther        = 1  timeOther        = 0.0093527138
+Time for psi.AddMultSpinorFineR2C is 0.06329656 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.013790165
+
+The minimum norm of the residual is 0.00028874474
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0052350983
+Time for iterGemmN     = 20  timeGemmN     = 0.0060361326
+Time for iterAllreduce = 31  timeAllreduce = 0.00085859373
+Time for iterAlltoallv = 13  timeAlltoallv = 0.014715273
+Time for iterSpinor    = 7  timeSpinor    = 0.3138941
+Time for iterTrsm      = 1  timeTrsm      = 0.00017981604
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00040531531
+
+Time for the eigensolver is 0.34944504 [s]
+
+Time for ham.EigVal() in PWDFT is 6.6682696e-07 [s]
+
+Time for computing occupation rate in PWDFT is 6.2584877e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.062853411 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00057587028 [s]
+
+Time for computing XC potential in PWDFT is 0.019526917 [s]
+
+Time for computing Hartree potential in PWDFT is 0.027175564 [s]
+
+Time for computing total potential in PWDFT is 0.00107136 [s]
+
+Time for computing energy in PWDFT is 0.00088376179 [s]
+
+band#    = 0    eigval   = -2.32588567e-01 resval   = +2.93368770e-04 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.94012360e-01 resval   = +3.95795924e-04 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.90931491e-01 resval   = +2.88744744e-04 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.85047966e-02 resval   = +5.17190736e-03 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.70522600e-02 resval   = +8.23110617e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.51101619e-02 resval   = +8.30122436e-03 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.13117000e-02 resval   = +6.78355402e-03 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.78328594e-02 resval   = +1.37901647e-02 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71432444e+01 [au]  
+Efree             = -1.71432444e+01 [au]  
+EfreeHarris       = -1.71675373e+01 [au]  
+Ekin              = -1.97468839e+00 [au]  
+Ehart             = +2.73497590e-02 [au]  
+EVxc              = -3.72350633e+00 [au]  
+Exc               = -2.86471262e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51685560e+01 [au]  
+Fermi             = -4.78328594e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.30159835e+00 [eV]  
+norm(out-in)/norm(in) = +1.76485086e-01 
+Efree diff per atom   = +1.51830457e-03 
+  Rank of dfmat = 3               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.020146701 [s]
+
+Total wall clock time for this SCF iteration = 0.48297323 [s]
+
+*********************************************************************
+SCF iteration # 5
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053037256
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046339497
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00041447207
+Time for iterOther        = 1  timeOther        = 0.0091657154
+Time for psi.AddMultSpinorFineR2C is 0.061256662 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052739494
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046270013
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036857277
+Time for iterOther        = 1  timeOther        = 0.0081670135
+Time for psi.AddMultSpinorFineR2C is 0.060105588 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053947568
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04698272
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037170202
+Time for iterOther        = 1  timeOther        = 0.0087517053
+Time for psi.AddMultSpinorFineR2C is 0.061539184 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055419505
+Time for iterFFTFine      = 8  timeFFTFine      = 0.051093437
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00040701777
+Time for iterOther        = 1  timeOther        = 0.0089261271
+Time for psi.AddMultSpinorFineR2C is 0.066016685 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.016072337
+
+The minimum norm of the residual is 6.6523365e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0051994212
+Time for iterGemmN     = 20  timeGemmN     = 0.0054115131
+Time for iterAllreduce = 31  timeAllreduce = 0.0016414151
+Time for iterAlltoallv = 13  timeAlltoallv = 0.017942633
+Time for iterSpinor    = 7  timeSpinor    = 0.26750295
+Time for iterTrsm      = 1  timeTrsm      = 0.00019717589
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00047691166
+
+Time for the eigensolver is 0.3058419 [s]
+
+Time for ham.EigVal() in PWDFT is 9.0152025e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.8056245e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.06344448 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00055059791 [s]
+
+Time for computing XC potential in PWDFT is 0.019467141 [s]
+
+Time for computing Hartree potential in PWDFT is 0.027097184 [s]
+
+Time for computing total potential in PWDFT is 0.0010734089 [s]
+
+Time for computing energy in PWDFT is 0.00083076581 [s]
+
+band#    = 0    eigval   = -2.32428105e-01 resval   = +1.26649491e-04 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.92522233e-01 resval   = +6.65233649e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.92379235e-01 resval   = +7.22603612e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.86047761e-02 resval   = +1.70917443e-03 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.69109395e-02 resval   = +3.11889736e-03 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50069879e-02 resval   = +1.69868961e-03 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.10969785e-02 resval   = +1.58538841e-03 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.83363739e-02 resval   = +1.60723373e-02 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71364070e+01 [au]  
+Efree             = -1.71364070e+01 [au]  
+EfreeHarris       = -1.71431273e+01 [au]  
+Ekin              = -1.97457126e+00 [au]  
+Ehart             = +2.04138066e-02 [au]  
+EVxc              = -3.72259187e+00 [au]  
+Exc               = -2.86401384e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51618358e+01 [au]  
+Fermi             = -4.83363739e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.31529968e+00 [eV]  
+norm(out-in)/norm(in) = +1.45194400e-01 
+Efree diff per atom   = +4.20016483e-04 
+  Rank of dfmat = 4               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.022590287 [s]
+
+Total wall clock time for this SCF iteration = 0.4422506 [s]
+
+*********************************************************************
+SCF iteration # 6
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053604022
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047562487
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00051106885
+Time for iterOther        = 1  timeOther        = 0.012119476
+Time for psi.AddMultSpinorFineR2C is 0.065594725 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055183731
+Time for iterFFTFine      = 8  timeFFTFine      = 0.051219761
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038477406
+Time for iterOther        = 1  timeOther        = 0.0085768513
+Time for psi.AddMultSpinorFineR2C is 0.065747045 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0056772865
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050200667
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00043324009
+Time for iterOther        = 1  timeOther        = 0.0098334216
+Time for psi.AddMultSpinorFineR2C is 0.066195961 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0057134107
+Time for iterFFTFine      = 8  timeFFTFine      = 0.051212259
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00041791424
+Time for iterOther        = 1  timeOther        = 0.0097971931
+Time for psi.AddMultSpinorFineR2C is 0.06719394 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0018538072
+
+The minimum norm of the residual is 2.6934489e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0057668388
+Time for iterGemmN     = 20  timeGemmN     = 0.0057714507
+Time for iterAllreduce = 31  timeAllreduce = 0.00039650127
+Time for iterAlltoallv = 13  timeAlltoallv = 0.014997367
+Time for iterSpinor    = 7  timeSpinor    = 0.28444183
+Time for iterTrsm      = 1  timeTrsm      = 0.00014811754
+Time for iterMpirank0  = 23  timeMpirank0  = 0.0004366599
+
+Time for the eigensolver is 0.32070132 [s]
+
+Time for ham.EigVal() in PWDFT is 7.4133277e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.2468309e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061385497 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00055756792 [s]
+
+Time for computing XC potential in PWDFT is 0.019613985 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025438182 [s]
+
+Time for computing total potential in PWDFT is 0.0019054897 [s]
+
+Time for computing energy in PWDFT is 0.00068689883 [s]
+
+band#    = 0    eigval   = -2.32480176e-01 resval   = +3.73826543e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93120755e-01 resval   = +3.17667129e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91856517e-01 resval   = +2.69344889e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.86639179e-02 resval   = +2.71765562e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.70511728e-02 resval   = +5.86945393e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.49973769e-02 resval   = +3.55273229e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.10566796e-02 resval   = +7.15965118e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.83796385e-02 resval   = +1.85380720e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71346647e+01 [au]  
+Efree             = -1.71346647e+01 [au]  
+EfreeHarris       = -1.71370482e+01 [au]  
+Ekin              = -1.97521247e+00 [au]  
+Ehart             = +1.78599381e-02 [au]  
+EVxc              = -3.72187011e+00 [au]  
+Exc               = -2.86346237e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51594522e+01 [au]  
+Fermi             = -4.83796385e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.31647697e+00 [eV]  
+norm(out-in)/norm(in) = +1.36734207e-01 
+Efree diff per atom   = +1.48974266e-04 
+  Rank of dfmat = 5               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.038758632 [s]
+
+Total wall clock time for this SCF iteration = 0.47039549 [s]
+
+*********************************************************************
+SCF iteration # 7
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055369064
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047423296
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0004116036
+Time for iterOther        = 1  timeOther        = 0.0099459589
+Time for psi.AddMultSpinorFineR2C is 0.063360035 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052332319
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047181662
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036401674
+Time for iterOther        = 1  timeOther        = 0.0081809722
+Time for psi.AddMultSpinorFineR2C is 0.060986854 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0057820752
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047621965
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00041628629
+Time for iterOther        = 1  timeOther        = 0.0088236295
+Time for psi.AddMultSpinorFineR2C is 0.06268264 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0058897398
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050522424
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038938224
+Time for iterOther        = 1  timeOther        = 0.0091447979
+Time for psi.AddMultSpinorFineR2C is 0.065985952 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0082864896
+
+The minimum norm of the residual is 0.00012840639
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0057677701
+Time for iterGemmN     = 20  timeGemmN     = 0.0059122778
+Time for iterAllreduce = 31  timeAllreduce = 0.0017620623
+Time for iterAlltoallv = 13  timeAlltoallv = 0.033187773
+Time for iterSpinor    = 7  timeSpinor    = 0.27194074
+Time for iterTrsm      = 1  timeTrsm      = 0.00016145036
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00045803934
+
+Time for the eigensolver is 0.32757103 [s]
+
+Time for ham.EigVal() in PWDFT is 9.1269612e-07 [s]
+
+Time for computing occupation rate in PWDFT is 5.1781535e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.073388427 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00053214654 [s]
+
+Time for computing XC potential in PWDFT is 0.018546999 [s]
+
+Time for computing Hartree potential in PWDFT is 0.02518424 [s]
+
+Time for computing total potential in PWDFT is 0.0010516569 [s]
+
+Time for computing energy in PWDFT is 0.00068742782 [s]
+
+band#    = 0    eigval   = -2.32650981e-01 resval   = +1.55276885e-04 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93852553e-01 resval   = +1.28406391e-04 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91547916e-01 resval   = +1.33733341e-04 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.89204208e-02 resval   = +5.36106924e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.73770432e-02 resval   = +1.09131804e-03 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50078414e-02 resval   = +1.33874848e-03 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.09958608e-02 resval   = +2.66665722e-03 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.85725055e-02 resval   = +8.28648964e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71385260e+01 [au]  
+Efree             = -1.71385260e+01 [au]  
+EfreeHarris       = -1.71373024e+01 [au]  
+Ekin              = -1.97785024e+00 [au]  
+Ehart             = +1.92226893e-02 [au]  
+EVxc              = -3.72245026e+00 [au]  
+Exc               = -2.86390334e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51606758e+01 [au]  
+Fermi             = -4.85725055e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.32172515e+00 [eV]  
+norm(out-in)/norm(in) = +1.10644967e-01 
+Efree diff per atom   = +7.64737652e-05 
+  Rank of dfmat = 6               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.029314682 [s]
+
+Total wall clock time for this SCF iteration = 0.47777914 [s]
+
+*********************************************************************
+SCF iteration # 8
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052490048
+Time for iterFFTFine      = 8  timeFFTFine      = 0.045819022
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00039289892
+Time for iterOther        = 1  timeOther        = 0.0099391155
+Time for psi.AddMultSpinorFineR2C is 0.06145389 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005230125
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046572231
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0003628172
+Time for iterOther        = 1  timeOther        = 0.0080776736
+Time for psi.AddMultSpinorFineR2C is 0.060267895 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054908395
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048833907
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037435442
+Time for iterOther        = 1  timeOther        = 0.0084786341
+Time for psi.AddMultSpinorFineR2C is 0.063221775 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005443804
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050302207
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00043489039
+Time for iterOther        = 1  timeOther        = 0.0095190257
+Time for psi.AddMultSpinorFineR2C is 0.06574912 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0051390275
+
+The minimum norm of the residual is 5.2321782e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.005247701
+Time for iterGemmN     = 20  timeGemmN     = 0.0055855364
+Time for iterAllreduce = 31  timeAllreduce = 0.0010511838
+Time for iterAlltoallv = 13  timeAlltoallv = 0.019118823
+Time for iterSpinor    = 7  timeSpinor    = 0.26961066
+Time for iterTrsm      = 1  timeTrsm      = 0.00015664473
+Time for iterMpirank0  = 23  timeMpirank0  = 0.0004183203
+
+Time for the eigensolver is 0.32372213 [s]
+
+Time for ham.EigVal() in PWDFT is 8.1956387e-07 [s]
+
+Time for computing occupation rate in PWDFT is 1.1138618e-06 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061064269 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00069166347 [s]
+
+Time for computing XC potential in PWDFT is 0.019741017 [s]
+
+Time for computing Hartree potential in PWDFT is 0.031384896 [s]
+
+Time for computing total potential in PWDFT is 0.0023776777 [s]
+
+Time for computing energy in PWDFT is 0.0023147427 [s]
+
+band#    = 0    eigval   = -2.32744592e-01 resval   = +5.23217816e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93995290e-01 resval   = +5.37982213e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91607607e-01 resval   = +6.39049481e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.89788409e-02 resval   = +2.54715353e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.75521076e-02 resval   = +3.61017496e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50654263e-02 resval   = +1.03669419e-03 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.10741493e-02 resval   = +1.19101406e-03 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.90408887e-02 resval   = +5.13902753e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71381787e+01 [au]  
+Efree             = -1.71381787e+01 [au]  
+EfreeHarris       = -1.71407936e+01 [au]  
+Ekin              = -1.98011780e+00 [au]  
+Ehart             = +1.63676474e-02 [au]  
+EVxc              = -3.72143192e+00 [au]  
+Exc               = -2.86312516e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51580609e+01 [au]  
+Fermi             = -4.90408887e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.33447050e+00 [eV]  
+norm(out-in)/norm(in) = +9.71977947e-02 
+Efree diff per atom   = +1.63430620e-04 
+  Rank of dfmat = 7               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.038499814 [s]
+
+Total wall clock time for this SCF iteration = 0.48094608 [s]
+
+*********************************************************************
+SCF iteration # 9
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052539334
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04746259
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00044155121
+Time for iterOther        = 1  timeOther        = 0.012137365
+Time for psi.AddMultSpinorFineR2C is 0.0653341 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005480811
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048605043
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00034663454
+Time for iterOther        = 1  timeOther        = 0.0081529729
+Time for psi.AddMultSpinorFineR2C is 0.062615044 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054608136
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048404511
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038183108
+Time for iterOther        = 1  timeOther        = 0.0089173093
+Time for psi.AddMultSpinorFineR2C is 0.063214812 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053767934
+Time for iterFFTFine      = 8  timeFFTFine      = 0.049585834
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00039689615
+Time for iterOther        = 1  timeOther        = 0.0092073157
+Time for psi.AddMultSpinorFineR2C is 0.064615928 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0037574938
+
+The minimum norm of the residual is 3.3319036e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0054122731
+Time for iterGemmN     = 20  timeGemmN     = 0.0054258145
+Time for iterAllreduce = 31  timeAllreduce = 0.00079357624
+Time for iterAlltoallv = 13  timeAlltoallv = 0.011278193
+Time for iterSpinor    = 7  timeSpinor    = 0.27446743
+Time for iterTrsm      = 1  timeTrsm      = 0.00015314668
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00043459982
+
+Time for the eigensolver is 0.30494922 [s]
+
+Time for ham.EigVal() in PWDFT is 8.6799264e-07 [s]
+
+Time for computing occupation rate in PWDFT is 6.1839819e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061828192 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00051486865 [s]
+
+Time for computing XC potential in PWDFT is 0.019608375 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025048196 [s]
+
+Time for computing total potential in PWDFT is 0.00096472353 [s]
+
+Time for computing energy in PWDFT is 0.00070696697 [s]
+
+band#    = 0    eigval   = -2.32753378e-01 resval   = +6.57493181e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93628345e-01 resval   = +3.94282787e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.92008333e-01 resval   = +3.33190361e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88766700e-02 resval   = +2.08855076e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.76861364e-02 resval   = +8.47894162e-05 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50504482e-02 resval   = +7.52393624e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11095792e-02 resval   = +7.16659020e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.88787509e-02 resval   = +3.75749384e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71380445e+01 [au]  
+Efree             = -1.71380445e+01 [au]  
+EfreeHarris       = -1.71380442e+01 [au]  
+Ekin              = -1.97998328e+00 [au]  
+Ehart             = +1.63707496e-02 [au]  
+EVxc              = -3.72144225e+00 [au]  
+Exc               = -2.86313271e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51580612e+01 [au]  
+Fermi             = -4.88787509e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.33005851e+00 [eV]  
+norm(out-in)/norm(in) = +9.31832742e-02 
+Efree diff per atom   = +2.04120207e-08 
+  Rank of dfmat = 8               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.03792686 [s]
+
+Total wall clock time for this SCF iteration = 0.45286413 [s]
+
+*********************************************************************
+SCF iteration # 10
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005326692
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046678353
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00040153787
+Time for iterOther        = 1  timeOther        = 0.010026328
+Time for psi.AddMultSpinorFineR2C is 0.062466107 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054339767
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050881449
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00035877898
+Time for iterOther        = 1  timeOther        = 0.008350607
+Time for psi.AddMultSpinorFineR2C is 0.065061551 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054294169
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048413493
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00040486827
+Time for iterOther        = 1  timeOther        = 0.0093245059
+Time for psi.AddMultSpinorFineR2C is 0.063621718 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0051883906
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046594918
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00035536289
+Time for iterOther        = 1  timeOther        = 0.0083596706
+Time for psi.AddMultSpinorFineR2C is 0.060541224 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0071265113
+
+The minimum norm of the residual is 5.919832e-06
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0047958605
+Time for iterGemmN     = 20  timeGemmN     = 0.0053687319
+Time for iterAllreduce = 31  timeAllreduce = 0.0012375861
+Time for iterAlltoallv = 13  timeAlltoallv = 0.016975384
+Time for iterSpinor    = 7  timeSpinor    = 0.27033814
+Time for iterTrsm      = 1  timeTrsm      = 0.00014774129
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00038205087
+
+Time for the eigensolver is 0.30932185 [s]
+
+Time for ham.EigVal() in PWDFT is 7.301569e-07 [s]
+
+Time for computing occupation rate in PWDFT is 5.3271651e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061367236 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00054224581 [s]
+
+Time for computing XC potential in PWDFT is 0.019326307 [s]
+
+Time for computing Hartree potential in PWDFT is 0.024767231 [s]
+
+Time for computing total potential in PWDFT is 0.00098063052 [s]
+
+Time for computing energy in PWDFT is 0.00069199502 [s]
+
+band#    = 0    eigval   = -2.32762646e-01 resval   = +7.80376807e-06 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93738166e-01 resval   = +7.24199523e-06 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91913624e-01 resval   = +5.91983200e-06 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.89106148e-02 resval   = +4.56174655e-05 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.76721763e-02 resval   = +1.50978319e-05 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50581709e-02 resval   = +6.05884955e-05 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11148558e-02 resval   = +3.77405387e-05 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.93218660e-02 resval   = +7.12651133e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71379632e+01 [au]  
+Efree             = -1.71379632e+01 [au]  
+EfreeHarris       = -1.71390454e+01 [au]  
+Ekin              = -1.98098424e+00 [au]  
+Ehart             = +1.52058578e-02 [au]  
+EVxc              = -3.72109445e+00 [au]  
+Exc               = -2.86286754e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51569790e+01 [au]  
+Fermi             = -4.93218660e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.34211629e+00 [eV]  
+norm(out-in)/norm(in) = +9.29695935e-02 
+Efree diff per atom   = +6.76409825e-05 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.043676931 [s]
+
+Total wall clock time for this SCF iteration = 0.46195913 [s]
+
+*********************************************************************
+SCF iteration # 11
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053905882
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046934742
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00039900839
+Time for iterOther        = 1  timeOther        = 0.0099582151
+Time for psi.AddMultSpinorFineR2C is 0.062721964 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053181984
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048113942
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00035826117
+Time for iterOther        = 1  timeOther        = 0.0082919225
+Time for psi.AddMultSpinorFineR2C is 0.06212331 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052483007
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047603242
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037673861
+Time for iterOther        = 1  timeOther        = 0.0086983442
+Time for psi.AddMultSpinorFineR2C is 0.061970044 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0056337863
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050130952
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00041932613
+Time for iterOther        = 1  timeOther        = 0.0094974004
+Time for psi.AddMultSpinorFineR2C is 0.065733261 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0032150439
+
+The minimum norm of the residual is 1.8482982e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0049949065
+Time for iterGemmN     = 20  timeGemmN     = 0.0053995028
+Time for iterAllreduce = 31  timeAllreduce = 0.0013713874
+Time for iterAlltoallv = 13  timeAlltoallv = 0.017680202
+Time for iterSpinor    = 7  timeSpinor    = 0.27130834
+Time for iterTrsm      = 1  timeTrsm      = 0.00015002489
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00044185668
+
+Time for the eigensolver is 0.31302349 [s]
+
+Time for ham.EigVal() in PWDFT is 8.0093741e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.4703484e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061208222 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050691515 [s]
+
+Time for computing XC potential in PWDFT is 0.018800244 [s]
+
+Time for computing Hartree potential in PWDFT is 0.02715436 [s]
+
+Time for computing total potential in PWDFT is 0.0011049435 [s]
+
+Time for computing energy in PWDFT is 0.0008263737 [s]
+
+band#    = 0    eigval   = -2.32765993e-01 resval   = +1.84829817e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93749525e-01 resval   = +2.46451722e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91906971e-01 resval   = +2.76886369e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88250172e-02 resval   = +7.83360305e-05 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.77628839e-02 resval   = +6.14413124e-05 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50265893e-02 resval   = +2.08069774e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11495248e-02 resval   = +1.80331677e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.93620888e-02 resval   = +3.21504385e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71382804e+01 [au]  
+Efree             = -1.71382804e+01 [au]  
+EfreeHarris       = -1.71380761e+01 [au]  
+Ekin              = -1.98109719e+00 [au]  
+Ehart             = +1.54282933e-02 [au]  
+EVxc              = -3.72117383e+00 [au]  
+Exc               = -2.86292873e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51571832e+01 [au]  
+Fermi             = -4.93620888e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.34321080e+00 [eV]  
+norm(out-in)/norm(in) = +9.46796667e-02 
+Efree diff per atom   = +1.27646472e-05 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.046000499 [s]
+
+Total wall clock time for this SCF iteration = 0.47003034 [s]
+
+*********************************************************************
+SCF iteration # 12
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0056181401
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047711864
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00043231621
+Time for iterOther        = 1  timeOther        = 0.010307379
+Time for psi.AddMultSpinorFineR2C is 0.064116593 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005390022
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047002796
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037643686
+Time for iterOther        = 1  timeOther        = 0.0082879923
+Time for psi.AddMultSpinorFineR2C is 0.061086401 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054585263
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046538472
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00041427836
+Time for iterOther        = 1  timeOther        = 0.0084837005
+Time for psi.AddMultSpinorFineR2C is 0.060941707 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052721091
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047616165
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00050682575
+Time for iterOther        = 1  timeOther        = 0.01174552
+Time for psi.AddMultSpinorFineR2C is 0.065179776 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0083826556
+
+The minimum norm of the residual is 0.00011165633
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0064905435
+Time for iterGemmN     = 20  timeGemmN     = 0.0060832538
+Time for iterAllreduce = 31  timeAllreduce = 0.0011941306
+Time for iterAlltoallv = 13  timeAlltoallv = 0.019568093
+Time for iterSpinor    = 7  timeSpinor    = 0.26963484
+Time for iterTrsm      = 1  timeTrsm      = 0.0001603514
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00041434914
+
+Time for the eigensolver is 0.31185682 [s]
+
+Time for ham.EigVal() in PWDFT is 7.3388219e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.3213367e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061554048 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050692633 [s]
+
+Time for computing XC potential in PWDFT is 0.018352952 [s]
+
+Time for computing Hartree potential in PWDFT is 0.026397478 [s]
+
+Time for computing total potential in PWDFT is 0.0017663054 [s]
+
+Time for computing energy in PWDFT is 0.00075703487 [s]
+
+band#    = 0    eigval   = -2.32954537e-01 resval   = +1.80633075e-04 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.94585438e-01 resval   = +1.22058321e-04 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91411491e-01 resval   = +1.11656329e-04 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88275772e-02 resval   = +3.42482935e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.81280664e-02 resval   = +4.25457505e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.51384954e-02 resval   = +1.68853350e-03 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.13357416e-02 resval   = +2.19080810e-03 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.97064102e-02 resval   = +8.38265557e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71412864e+01 [au]  
+Efree             = -1.71412864e+01 [au]  
+EfreeHarris       = -1.71413587e+01 [au]  
+Ekin              = -1.98417551e+00 [au]  
+Ehart             = +1.52982312e-02 [au]  
+EVxc              = -3.72093496e+00 [au]  
+Exc               = -2.86274761e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51571109e+01 [au]  
+Fermi             = -4.97064102e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.35258027e+00 [eV]  
+norm(out-in)/norm(in) = +1.04133422e-01 
+Efree diff per atom   = +4.51941003e-06 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.058767829 [s]
+
+Total wall clock time for this SCF iteration = 0.48132411 [s]
+
+*********************************************************************
+SCF iteration # 13
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0051948316
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04703708
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00041188672
+Time for iterOther        = 1  timeOther        = 0.010050192
+Time for psi.AddMultSpinorFineR2C is 0.062733758 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055842139
+Time for iterFFTFine      = 8  timeFFTFine      = 0.049258407
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036169589
+Time for iterOther        = 1  timeOther        = 0.008459352
+Time for psi.AddMultSpinorFineR2C is 0.063702162 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054509193
+Time for iterFFTFine      = 8  timeFFTFine      = 0.049640309
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00039229542
+Time for iterOther        = 1  timeOther        = 0.0093618929
+Time for psi.AddMultSpinorFineR2C is 0.064895008 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052724369
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04860229
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00039223582
+Time for iterOther        = 1  timeOther        = 0.008529447
+Time for psi.AddMultSpinorFineR2C is 0.062841915 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.010134822
+
+The minimum norm of the residual is 8.7261847e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0052752271
+Time for iterGemmN     = 20  timeGemmN     = 0.0055515692
+Time for iterAllreduce = 31  timeAllreduce = 0.0033414215
+Time for iterAlltoallv = 13  timeAlltoallv = 0.019822441
+Time for iterSpinor    = 7  timeSpinor    = 0.27410723
+Time for iterTrsm      = 1  timeTrsm      = 0.0001542829
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00039959326
+
+Time for the eigensolver is 0.31652436 [s]
+
+Time for ham.EigVal() in PWDFT is 9.4994903e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.209578e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.063358858 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00057514384 [s]
+
+Time for computing XC potential in PWDFT is 0.019599423 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025702521 [s]
+
+Time for computing total potential in PWDFT is 0.0010390431 [s]
+
+Time for computing energy in PWDFT is 0.00086525828 [s]
+
+band#    = 0    eigval   = -2.32775394e-01 resval   = +1.15581922e-04 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.94669456e-01 resval   = +8.72618467e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.90953163e-01 resval   = +1.35776039e-04 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.85796146e-02 resval   = +3.75190826e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.80284373e-02 resval   = +3.96272498e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.49332337e-02 resval   = +1.42374107e-03 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11236034e-02 resval   = +1.09100350e-03 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.96955863e-02 resval   = +1.01348219e-02 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71339694e+01 [au]  
+Efree             = -1.71339694e+01 [au]  
+EfreeHarris       = -1.71386279e+01 [au]  
+Ekin              = -1.98151698e+00 [au]  
+Ehart             = +1.01620329e-02 [au]  
+EVxc              = -3.71891387e+00 [au]  
+Exc               = -2.86120431e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51524525e+01 [au]  
+Fermi             = -4.96955863e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.35228573e+00 [eV]  
+norm(out-in)/norm(in) = +9.54747823e-02 
+Efree diff per atom   = +2.91150647e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.043986566 [s]
+
+Total wall clock time for this SCF iteration = 0.47305132 [s]
+
+*********************************************************************
+SCF iteration # 14
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052365474
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047593076
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0004459098
+Time for iterOther        = 1  timeOther        = 0.0098189004
+Time for psi.AddMultSpinorFineR2C is 0.063136015 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0056890212
+Time for iterFFTFine      = 8  timeFFTFine      = 0.049063765
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037117302
+Time for iterOther        = 1  timeOther        = 0.008509092
+Time for psi.AddMultSpinorFineR2C is 0.063664488 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055070855
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050650429
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00039604679
+Time for iterOther        = 1  timeOther        = 0.0091293007
+Time for psi.AddMultSpinorFineR2C is 0.065742251 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052406974
+Time for iterFFTFine      = 8  timeFFTFine      = 0.045694992
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0003762804
+Time for iterOther        = 1  timeOther        = 0.0082111582
+Time for psi.AddMultSpinorFineR2C is 0.059565146 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.011069778
+
+The minimum norm of the residual is 4.5181069e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.004944656
+Time for iterGemmN     = 20  timeGemmN     = 0.0053365566
+Time for iterAllreduce = 31  timeAllreduce = 0.0010858737
+Time for iterAlltoallv = 13  timeAlltoallv = 0.019086316
+Time for iterSpinor    = 7  timeSpinor    = 0.27113016
+Time for iterTrsm      = 1  timeTrsm      = 0.00014902279
+Time for iterMpirank0  = 23  timeMpirank0  = 0.0003865622
+
+Time for the eigensolver is 0.31776953 [s]
+
+Time for ham.EigVal() in PWDFT is 9.1642141e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.3585896e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061564378 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050482154 [s]
+
+Time for computing XC potential in PWDFT is 0.018327869 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025267486 [s]
+
+Time for computing total potential in PWDFT is 0.0010337345 [s]
+
+Time for computing energy in PWDFT is 0.00073054433 [s]
+
+band#    = 0    eigval   = -2.32817267e-01 resval   = +5.51722815e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.94894258e-01 resval   = +6.10585286e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.90800259e-01 resval   = +4.51810693e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.87213051e-02 resval   = +3.06898128e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.79787487e-02 resval   = +1.70251451e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.49380509e-02 resval   = +4.21438741e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11828310e-02 resval   = +3.90366009e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -5.03220280e-02 resval   = +1.10697780e-02 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71413772e+01 [au]  
+Efree             = -1.71413772e+01 [au]  
+EfreeHarris       = -1.71357620e+01 [au]  
+Ekin              = -1.98330949e+00 [au]  
+Ehart             = +1.64203972e-02 [au]  
+EVxc              = -3.72163360e+00 [au]  
+Exc               = -2.86328090e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51580677e+01 [au]  
+Fermi             = -5.03220280e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.36933208e+00 [eV]  
+norm(out-in)/norm(in) = +1.07468591e-01 
+Efree diff per atom   = +3.50952439e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.043744169 [s]
+
+Total wall clock time for this SCF iteration = 0.47045933 [s]
+
+*********************************************************************
+SCF iteration # 15
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0051919781
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046016041
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00042580068
+Time for iterOther        = 1  timeOther        = 0.010156479
+Time for psi.AddMultSpinorFineR2C is 0.061828829 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0051851682
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046747658
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00034006685
+Time for iterOther        = 1  timeOther        = 0.0082643181
+Time for psi.AddMultSpinorFineR2C is 0.060561281 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052342676
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046698716
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037338957
+Time for iterOther        = 1  timeOther        = 0.0083433017
+Time for psi.AddMultSpinorFineR2C is 0.060685553 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052722208
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046339583
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036326423
+Time for iterOther        = 1  timeOther        = 0.0085606501
+Time for psi.AddMultSpinorFineR2C is 0.060593214 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0066773867
+
+The minimum norm of the residual is 8.9704024e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0048847497
+Time for iterGemmN     = 20  timeGemmN     = 0.0053580925
+Time for iterAllreduce = 31  timeAllreduce = 0.0017340034
+Time for iterAlltoallv = 13  timeAlltoallv = 0.025279917
+Time for iterSpinor    = 7  timeSpinor    = 0.2622355
+Time for iterTrsm      = 1  timeTrsm      = 0.00015578046
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00041133165
+
+Time for the eigensolver is 0.31216064 [s]
+
+Time for ham.EigVal() in PWDFT is 7.8976154e-07 [s]
+
+Time for computing occupation rate in PWDFT is 6.8545341e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.060545512 [s]
+
+ 
+Time for computing total xc energy in XC is 0.0005046241 [s]
+
+Time for computing XC potential in PWDFT is 0.018250778 [s]
+
+Time for computing Hartree potential in PWDFT is 0.02496662 [s]
+
+Time for computing total potential in PWDFT is 0.00095351413 [s]
+
+Time for computing energy in PWDFT is 0.00069859624 [s]
+
+band#    = 0    eigval   = -2.32795715e-01 resval   = +8.97040241e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.94233562e-01 resval   = +9.81574197e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91452824e-01 resval   = +8.97402233e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.89179711e-02 resval   = +2.11089688e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.77403653e-02 resval   = +3.88220166e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.48963096e-02 resval   = +7.23685051e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.12489424e-02 resval   = +1.22018523e-03 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -5.06876471e-02 resval   = +6.67738666e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71421409e+01 [au]  
+Efree             = -1.71421409e+01 [au]  
+EfreeHarris       = -1.71420144e+01 [au]  
+Ekin              = -1.98394667e+00 [au]  
+Ehart             = +1.66265168e-02 [au]  
+EVxc              = -3.72196966e+00 [au]  
+Exc               = -2.86353734e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51581942e+01 [au]  
+Fermi             = -5.06876471e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.37928108e+00 [eV]  
+norm(out-in)/norm(in) = +1.04225428e-01 
+Efree diff per atom   = +7.90551969e-06 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.043607034 [s]
+
+Total wall clock time for this SCF iteration = 0.4630578 [s]
+
+*********************************************************************
+SCF iteration # 16
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0057907775
+Time for iterFFTFine      = 8  timeFFTFine      = 0.052862994
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00041659549
+Time for iterOther        = 1  timeOther        = 0.011837266
+Time for psi.AddMultSpinorFineR2C is 0.07099244 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054762065
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04849726
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038766116
+Time for iterOther        = 1  timeOther        = 0.0084803812
+Time for psi.AddMultSpinorFineR2C is 0.062877081 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052318871
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046399023
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036391616
+Time for iterOther        = 1  timeOther        = 0.008468762
+Time for psi.AddMultSpinorFineR2C is 0.060519997 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0051373541
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047172613
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036561862
+Time for iterOther        = 1  timeOther        = 0.0083477236
+Time for psi.AddMultSpinorFineR2C is 0.061058242 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.001356129
+
+The minimum norm of the residual is 3.0102904e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0050527081
+Time for iterGemmN     = 20  timeGemmN     = 0.0053714961
+Time for iterAllreduce = 31  timeAllreduce = 0.0010615028
+Time for iterAlltoallv = 13  timeAlltoallv = 0.018504784
+Time for iterSpinor    = 7  timeSpinor    = 0.27448877
+Time for iterTrsm      = 1  timeTrsm      = 0.0002161786
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00042010844
+
+Time for the eigensolver is 0.31579089 [s]
+
+Time for ham.EigVal() in PWDFT is 8.1956387e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.5821071e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.06312342 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00057557225 [s]
+
+Time for computing XC potential in PWDFT is 0.020770416 [s]
+
+Time for computing Hartree potential in PWDFT is 0.027335037 [s]
+
+Time for computing total potential in PWDFT is 0.0018064901 [s]
+
+Time for computing energy in PWDFT is 0.00083907321 [s]
+
+band#    = 0    eigval   = -2.32771116e-01 resval   = +3.01029044e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93885422e-01 resval   = +5.79198132e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91766144e-01 resval   = +4.40124531e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88447733e-02 resval   = +2.11485853e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.77689482e-02 resval   = +3.00455081e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.49382897e-02 resval   = +4.01342945e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11850692e-02 resval   = +3.90086751e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -5.04539575e-02 resval   = +1.35612899e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71403032e+01 [au]  
+Efree             = -1.71403032e+01 [au]  
+EfreeHarris       = -1.71414216e+01 [au]  
+Ekin              = -1.98322744e+00 [au]  
+Ehart             = +1.53851676e-02 [au]  
+EVxc              = -3.72144991e+00 [au]  
+Exc               = -2.86314047e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51570757e+01 [au]  
+Fermi             = -5.04539575e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.37292206e+00 [eV]  
+norm(out-in)/norm(in) = +1.00092233e-01 
+Efree diff per atom   = +6.99041962e-05 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.050859995 [s]
+
+Total wall clock time for this SCF iteration = 0.4855352 [s]
+
+*********************************************************************
+SCF iteration # 17
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052413791
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04591376
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037005916
+Time for iterOther        = 1  timeOther        = 0.0099064894
+Time for psi.AddMultSpinorFineR2C is 0.061475866 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055355243
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046627268
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00034074485
+Time for iterOther        = 1  timeOther        = 0.008492019
+Time for psi.AddMultSpinorFineR2C is 0.061018482 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0056609772
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047978438
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0003715232
+Time for iterOther        = 1  timeOther        = 0.0085534491
+Time for psi.AddMultSpinorFineR2C is 0.06260848 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0057238266
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048992772
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00040087104
+Time for iterOther        = 1  timeOther        = 0.0090748109
+Time for psi.AddMultSpinorFineR2C is 0.064240638 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.00063409675
+
+The minimum norm of the residual is 4.9039752e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0051189661
+Time for iterGemmN     = 20  timeGemmN     = 0.0056658052
+Time for iterAllreduce = 31  timeAllreduce = 0.0008498542
+Time for iterAlltoallv = 13  timeAlltoallv = 0.017147627
+Time for iterSpinor    = 7  timeSpinor    = 0.26825483
+Time for iterTrsm      = 1  timeTrsm      = 0.00015589222
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00042054802
+
+Time for the eigensolver is 0.30478403 [s]
+
+Time for ham.EigVal() in PWDFT is 7.8976154e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.3958426e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061166327 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050536171 [s]
+
+Time for computing XC potential in PWDFT is 0.018250149 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025025416 [s]
+
+Time for computing total potential in PWDFT is 0.00091215223 [s]
+
+Time for computing energy in PWDFT is 0.00068281591 [s]
+
+band#    = 0    eigval   = -2.32801876e-01 resval   = +4.90397522e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93271657e-01 resval   = +7.37795924e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.92467600e-01 resval   = +7.26612610e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88157601e-02 resval   = +2.36310745e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.78617660e-02 resval   = +3.67378280e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50938905e-02 resval   = +6.09015316e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11363845e-02 resval   = +2.72979567e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.97595274e-02 resval   = +6.34096753e-04 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71377767e+01 [au]  
+Efree             = -1.71377767e+01 [au]  
+EfreeHarris       = -1.71394927e+01 [au]  
+Ekin              = -1.98241692e+00 [au]  
+Ehart             = +1.35563800e-02 [au]  
+EVxc              = -3.72097218e+00 [au]  
+Exc               = -2.86277561e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51553598e+01 [au]  
+Fermi             = -4.97595274e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.35402566e+00 [eV]  
+norm(out-in)/norm(in) = +9.11634564e-02 
+Efree diff per atom   = +1.07245188e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.04471517 [s]
+
+Total wall clock time for this SCF iteration = 0.45746366 [s]
+
+*********************************************************************
+SCF iteration # 18
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0051490031
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046038512
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037091225
+Time for iterOther        = 1  timeOther        = 0.0095231384
+Time for psi.AddMultSpinorFineR2C is 0.061133958 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0058762729
+Time for iterFFTFine      = 8  timeFFTFine      = 0.049682841
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038258731
+Time for iterOther        = 1  timeOther        = 0.0090068989
+Time for psi.AddMultSpinorFineR2C is 0.064997301 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053985976
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046431251
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037323684
+Time for iterOther        = 1  timeOther        = 0.0090286434
+Time for psi.AddMultSpinorFineR2C is 0.061279338 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052965581
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047633082
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037664175
+Time for iterOther        = 1  timeOther        = 0.0086118691
+Time for psi.AddMultSpinorFineR2C is 0.061958108 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.001296264
+
+The minimum norm of the residual is 1.8019941e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0049249418
+Time for iterGemmN     = 20  timeGemmN     = 0.0055733882
+Time for iterAllreduce = 31  timeAllreduce = 0.0013770759
+Time for iterAlltoallv = 13  timeAlltoallv = 0.020958845
+Time for iterSpinor    = 7  timeSpinor    = 0.2690343
+Time for iterTrsm      = 1  timeTrsm      = 0.00014837831
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00042140111
+
+Time for the eigensolver is 0.31438946 [s]
+
+Time for ham.EigVal() in PWDFT is 7.4133277e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.209578e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.067686323 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050498173 [s]
+
+Time for computing XC potential in PWDFT is 0.01904555 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025276292 [s]
+
+Time for computing total potential in PWDFT is 0.0010672621 [s]
+
+Time for computing energy in PWDFT is 0.00068216026 [s]
+
+band#    = 0    eigval   = -2.32812765e-01 resval   = +1.80199408e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93238410e-01 resval   = +4.95311146e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.92523235e-01 resval   = +4.02647869e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.87768696e-02 resval   = +1.23551174e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.79239971e-02 resval   = +7.69481532e-05 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50762352e-02 resval   = +1.17354283e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11775660e-02 resval   = +2.30672097e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.92220705e-02 resval   = +1.29626403e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71353464e+01 [au]  
+Efree             = -1.71353464e+01 [au]  
+EfreeHarris       = -1.71368621e+01 [au]  
+Ekin              = -1.98150230e+00 [au]  
+Ehart             = +1.18871762e-02 [au]  
+EVxc              = -3.72032345e+00 [au]  
+Exc               = -2.86228034e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51538441e+01 [au]  
+Fermi             = -4.92220705e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.33940071e+00 [eV]  
+norm(out-in)/norm(in) = +8.48734009e-02 
+Efree diff per atom   = +9.47337587e-05 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.04417548 [s]
+
+Total wall clock time for this SCF iteration = 0.47421479 [s]
+
+*********************************************************************
+SCF iteration # 19
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055285282
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047064796
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038667023
+Time for iterOther        = 1  timeOther        = 0.0096833222
+Time for psi.AddMultSpinorFineR2C is 0.062707718 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.00522957
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04637365
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00035086647
+Time for iterOther        = 1  timeOther        = 0.0080515295
+Time for psi.AddMultSpinorFineR2C is 0.060026467 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005587548
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047041539
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00039597228
+Time for iterOther        = 1  timeOther        = 0.0087318532
+Time for psi.AddMultSpinorFineR2C is 0.061792444 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0059061758
+Time for iterFFTFine      = 8  timeFFTFine      = 0.05102526
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0003894791
+Time for iterOther        = 1  timeOther        = 0.0093611851
+Time for psi.AddMultSpinorFineR2C is 0.066731356 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0019707716
+
+The minimum norm of the residual is 2.9885085e-06
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0054410696
+Time for iterGemmN     = 20  timeGemmN     = 0.0072342716
+Time for iterAllreduce = 31  timeAllreduce = 0.0013684854
+Time for iterAlltoallv = 13  timeAlltoallv = 0.021920905
+Time for iterSpinor    = 7  timeSpinor    = 0.27289054
+Time for iterTrsm      = 1  timeTrsm      = 0.00017474592
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00048081949
+
+Time for the eigensolver is 0.34357346 [s]
+
+Time for ham.EigVal() in PWDFT is 7.8976154e-07 [s]
+
+Time for computing occupation rate in PWDFT is 5.8859587e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.062167544 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00055363774 [s]
+
+Time for computing XC potential in PWDFT is 0.017986964 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025528565 [s]
+
+Time for computing total potential in PWDFT is 0.00091846287 [s]
+
+Time for computing energy in PWDFT is 0.00068374723 [s]
+
+band#    = 0    eigval   = -2.32815749e-01 resval   = +2.98850848e-06 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93300698e-01 resval   = +5.32822630e-06 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.92466080e-01 resval   = +6.26561359e-06 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.87844196e-02 resval   = +3.26761336e-05 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.79226925e-02 resval   = +2.48542229e-05 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50789675e-02 resval   = +2.23627729e-05 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11798752e-02 resval   = +4.53999417e-05 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.91756453e-02 resval   = +1.97077159e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71350391e+01 [au]  
+Efree             = -1.71350391e+01 [au]  
+EfreeHarris       = -1.71352923e+01 [au]  
+Ekin              = -1.98144825e+00 [au]  
+Ehart             = +1.16309417e-02 [au]  
+EVxc              = -3.72031063e+00 [au]  
+Exc               = -2.86227055e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51535909e+01 [au]  
+Fermi             = -4.91756453e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.33813742e+00 [eV]  
+norm(out-in)/norm(in) = +8.32756189e-02 
+Efree diff per atom   = +1.58250069e-05 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.044849861 [s]
+
+Total wall clock time for this SCF iteration = 0.49759698 [s]
+
+*********************************************************************
+SCF iteration # 20
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054722168
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046923742
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00042064488
+Time for iterOther        = 1  timeOther        = 0.0097387023
+Time for psi.AddMultSpinorFineR2C is 0.062600527 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005854398
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050147213
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00041632727
+Time for iterOther        = 1  timeOther        = 0.0091905519
+Time for psi.AddMultSpinorFineR2C is 0.065657154 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053127892
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047740251
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00046126172
+Time for iterOther        = 1  timeOther        = 0.0093698092
+Time for psi.AddMultSpinorFineR2C is 0.062930636 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052277297
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047067557
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036175922
+Time for iterOther        = 1  timeOther        = 0.0084891766
+Time for psi.AddMultSpinorFineR2C is 0.061182298 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0012103646
+
+The minimum norm of the residual is 2.9820682e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0049780011
+Time for iterGemmN     = 20  timeGemmN     = 0.0053645484
+Time for iterAllreduce = 31  timeAllreduce = 0.0011676289
+Time for iterAlltoallv = 13  timeAlltoallv = 0.016980115
+Time for iterSpinor    = 7  timeSpinor    = 0.27159816
+Time for iterTrsm      = 1  timeTrsm      = 0.00015989318
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00042613223
+
+Time for the eigensolver is 0.31211133 [s]
+
+Time for ham.EigVal() in PWDFT is 7.0035458e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.8801303e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061234988 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00061440468 [s]
+
+Time for computing XC potential in PWDFT is 0.017950006 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025543224 [s]
+
+Time for computing total potential in PWDFT is 0.0017391704 [s]
+
+Time for computing energy in PWDFT is 0.00070787594 [s]
+
+band#    = 0    eigval   = -2.32832351e-01 resval   = +6.24488096e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93376146e-01 resval   = +7.83167283e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.92422466e-01 resval   = +2.98206815e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88771603e-02 resval   = +1.40029810e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.78749146e-02 resval   = +2.30807990e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50551399e-02 resval   = +2.63588129e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.12317832e-02 resval   = +2.03752726e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.92709005e-02 resval   = +1.21036459e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71354463e+01 [au]  
+Efree             = -1.71354463e+01 [au]  
+EfreeHarris       = -1.71354726e+01 [au]  
+Ekin              = -1.98188173e+00 [au]  
+Ehart             = +1.16311803e-02 [au]  
+EVxc              = -3.72042255e+00 [au]  
+Exc               = -2.86235597e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51535646e+01 [au]  
+Fermi             = -4.92709005e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.34072944e+00 [eV]  
+norm(out-in)/norm(in) = +8.29374354e-02 
+Efree diff per atom   = +1.64158081e-06 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.065398283 [s]
+
+Total wall clock time for this SCF iteration = 0.48753711 [s]
+
+*********************************************************************
+SCF iteration # 21
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054390915
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04776454
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00052108988
+Time for iterOther        = 1  timeOther        = 0.010109566
+Time for psi.AddMultSpinorFineR2C is 0.06387705 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052360818
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046914611
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036814064
+Time for iterOther        = 1  timeOther        = 0.0079610646
+Time for psi.AddMultSpinorFineR2C is 0.060504772 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052385107
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047573626
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00035843253
+Time for iterOther        = 1  timeOther        = 0.0083223097
+Time for psi.AddMultSpinorFineR2C is 0.061551899 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055078492
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050352775
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00040093064
+Time for iterOther        = 1  timeOther        = 0.0093748048
+Time for psi.AddMultSpinorFineR2C is 0.065692533 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0012329578
+
+The minimum norm of the residual is 6.4919967e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0054233335
+Time for iterGemmN     = 20  timeGemmN     = 0.0058487728
+Time for iterAllreduce = 31  timeAllreduce = 0.0011642165
+Time for iterAlltoallv = 13  timeAlltoallv = 0.019832592
+Time for iterSpinor    = 7  timeSpinor    = 0.2705183
+Time for iterTrsm      = 1  timeTrsm      = 0.00019354001
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00041204691
+
+Time for the eigensolver is 0.31145348 [s]
+
+Time for ham.EigVal() in PWDFT is 8.4191561e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.3213367e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061841354 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00056158379 [s]
+
+Time for computing XC potential in PWDFT is 0.01818046 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025371108 [s]
+
+Time for computing total potential in PWDFT is 0.00093218684 [s]
+
+Time for computing energy in PWDFT is 0.00077940524 [s]
+
+band#    = 0    eigval   = -2.32828524e-01 resval   = +6.49199673e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.95128014e-01 resval   = +1.32366202e-04 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.90546045e-01 resval   = +1.21667967e-04 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88926932e-02 resval   = +6.31911756e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.78490783e-02 resval   = +6.99026232e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.49875585e-02 resval   = +3.44392521e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11023752e-02 resval   = +3.62116957e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -5.16086900e-02 resval   = +1.23295784e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71466301e+01 [au]  
+Efree             = -1.71466301e+01 [au]  
+EfreeHarris       = -1.71394506e+01 [au]  
+Ekin              = -1.98588596e+00 [au]  
+Ehart             = +1.93717203e-02 [au]  
+EVxc              = -3.72279624e+00 [au]  
+Exc               = -2.86416866e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51607441e+01 [au]  
+Fermi             = -5.16086900e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.40434393e+00 [eV]  
+norm(out-in)/norm(in) = +1.16986789e-01 
+Efree diff per atom   = +4.48721522e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.043998506 [s]
+
+Total wall clock time for this SCF iteration = 0.46444784 [s]
+
+*********************************************************************
+SCF iteration # 22
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052027777
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046916332
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038218498
+Time for iterOther        = 1  timeOther        = 0.0096941441
+Time for psi.AddMultSpinorFineR2C is 0.062235922 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005230099
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04719606
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038081035
+Time for iterOther        = 1  timeOther        = 0.0082003623
+Time for psi.AddMultSpinorFineR2C is 0.061032485 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053790919
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047100354
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0003647469
+Time for iterOther        = 1  timeOther        = 0.008439254
+Time for psi.AddMultSpinorFineR2C is 0.061317217 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0051410794
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046115216
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00035967678
+Time for iterOther        = 1  timeOther        = 0.0082528777
+Time for psi.AddMultSpinorFineR2C is 0.059924517 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.012006557
+
+The minimum norm of the residual is 0.00012881874
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0049636438
+Time for iterGemmN     = 20  timeGemmN     = 0.0052159093
+Time for iterAllreduce = 31  timeAllreduce = 0.0014429204
+Time for iterAlltoallv = 13  timeAlltoallv = 0.024996225
+Time for iterSpinor    = 7  timeSpinor    = 0.26335439
+Time for iterTrsm      = 1  timeTrsm      = 0.00018612295
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00038031861
+
+Time for the eigensolver is 0.31274873 [s]
+
+Time for ham.EigVal() in PWDFT is 7.7858567e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.4330955e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.062028076 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050722063 [s]
+
+Time for computing XC potential in PWDFT is 0.01831232 [s]
+
+Time for computing Hartree potential in PWDFT is 0.026324637 [s]
+
+Time for computing total potential in PWDFT is 0.0010330193 [s]
+
+Time for computing energy in PWDFT is 0.00078560784 [s]
+
+band#    = 0    eigval   = -2.33016084e-01 resval   = +1.28818741e-04 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.95614666e-01 resval   = +2.71915734e-04 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.90383934e-01 resval   = +2.09908229e-04 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.91269138e-02 resval   = +8.83173480e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.79919802e-02 resval   = +5.37572497e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.52878009e-02 resval   = +1.02089679e-03 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11461434e-02 resval   = +1.65326337e-03 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.74498781e-02 resval   = +1.20065571e-02 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71444348e+01 [au]  
+Efree             = -1.71444348e+01 [au]  
+EfreeHarris       = -1.71407789e+01 [au]  
+Ekin              = -1.98003480e+00 [au]  
+Ehart             = +2.33423358e-02 [au]  
+EVxc              = -3.72411951e+00 [au]  
+Exc               = -2.86517714e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51644000e+01 [au]  
+Fermi             = -4.74498781e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.29117690e+00 [eV]  
+norm(out-in)/norm(in) = +1.22499174e-01 
+Efree diff per atom   = +2.28488481e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.045603894 [s]
+
+Total wall clock time for this SCF iteration = 0.4689315 [s]
+
+*********************************************************************
+SCF iteration # 23
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054565668
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047925137
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00039695576
+Time for iterOther        = 1  timeOther        = 0.010265656
+Time for psi.AddMultSpinorFineR2C is 0.06411479 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052917153
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047198594
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036333501
+Time for iterOther        = 1  timeOther        = 0.0082908832
+Time for psi.AddMultSpinorFineR2C is 0.061174098 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0051376373
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046343166
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038356707
+Time for iterOther        = 1  timeOther        = 0.0083909743
+Time for psi.AddMultSpinorFineR2C is 0.060309373 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053514875
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04634577
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036236644
+Time for iterOther        = 1  timeOther        = 0.0083497092
+Time for psi.AddMultSpinorFineR2C is 0.0604457 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.010543314
+
+The minimum norm of the residual is 0.00015880665
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0048741363
+Time for iterGemmN     = 20  timeGemmN     = 0.0054141581
+Time for iterAllreduce = 31  timeAllreduce = 0.0015943311
+Time for iterAlltoallv = 13  timeAlltoallv = 0.02110919
+Time for iterSpinor    = 7  timeSpinor    = 0.26467894
+Time for iterTrsm      = 1  timeTrsm      = 0.00016178191
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00044204295
+
+Time for the eigensolver is 0.30586491 [s]
+
+Time for ham.EigVal() in PWDFT is 7.301569e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.5821071e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.062517133 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00063225254 [s]
+
+Time for computing XC potential in PWDFT is 0.018420834 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025382429 [s]
+
+Time for computing total potential in PWDFT is 0.0010548159 [s]
+
+Time for computing energy in PWDFT is 0.00080907717 [s]
+
+band#    = 0    eigval   = -2.32777060e-01 resval   = +2.04031582e-04 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93588421e-01 resval   = +1.58806646e-04 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.92091392e-01 resval   = +1.73449036e-04 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88703129e-02 resval   = +1.07225015e-03 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.77434220e-02 resval   = +1.03535381e-03 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50046321e-02 resval   = +1.08459297e-03 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11499881e-02 resval   = +1.90313812e-03 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.86436410e-02 resval   = +1.05433143e-02 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71368861e+01 [au]  
+Efree             = -1.71368861e+01 [au]  
+EfreeHarris       = -1.71441377e+01 [au]  
+Ekin              = -1.97973774e+00 [au]  
+Ehart             = +1.53496053e-02 [au]  
+EVxc              = -3.72098488e+00 [au]  
+Exc               = -2.86278361e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51571483e+01 [au]  
+Fermi             = -4.86436410e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.32366084e+00 [eV]  
+norm(out-in)/norm(in) = +9.07253923e-02 
+Efree diff per atom   = +4.53226308e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.045057144 [s]
+
+Total wall clock time for this SCF iteration = 0.46092235 [s]
+
+*********************************************************************
+SCF iteration # 24
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053227432
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047992639
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038066879
+Time for iterOther        = 1  timeOther        = 0.0099100992
+Time for psi.AddMultSpinorFineR2C is 0.063649226 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053018816
+Time for iterFFTFine      = 8  timeFFTFine      = 0.045615278
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036248937
+Time for iterOther        = 1  timeOther        = 0.0080890022
+Time for psi.AddMultSpinorFineR2C is 0.059393249 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0050966404
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04584438
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036277622
+Time for iterOther        = 1  timeOther        = 0.0083999895
+Time for psi.AddMultSpinorFineR2C is 0.059738602 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0049653687
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046628211
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037906691
+Time for iterOther        = 1  timeOther        = 0.0084363781
+Time for psi.AddMultSpinorFineR2C is 0.060444739 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.002240111
+
+The minimum norm of the residual is 4.2178957e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0046926141
+Time for iterGemmN     = 20  timeGemmN     = 0.0051280074
+Time for iterAllreduce = 31  timeAllreduce = 0.0022198334
+Time for iterAlltoallv = 13  timeAlltoallv = 0.026005793
+Time for iterSpinor    = 7  timeSpinor    = 0.26203514
+Time for iterTrsm      = 1  timeTrsm      = 0.00014879555
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00036624819
+
+Time for the eigensolver is 0.31320077 [s]
+
+Time for ham.EigVal() in PWDFT is 9.0152025e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.4703484e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.062258448 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00051449612 [s]
+
+Time for computing XC potential in PWDFT is 0.018453196 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025137693 [s]
+
+Time for computing total potential in PWDFT is 0.00092979521 [s]
+
+Time for computing energy in PWDFT is 0.00072139502 [s]
+
+band#    = 0    eigval   = -2.32769700e-01 resval   = +4.49242986e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93021328e-01 resval   = +4.21789569e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.92656383e-01 resval   = +5.43168344e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88727971e-02 resval   = +2.20804434e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.77421453e-02 resval   = +1.90730379e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50121192e-02 resval   = +3.64009730e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11568490e-02 resval   = +7.91892438e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.83206374e-02 resval   = +2.24011099e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71344328e+01 [au]  
+Efree             = -1.71344328e+01 [au]  
+EfreeHarris       = -1.71362523e+01 [au]  
+Ekin              = -1.97910392e+00 [au]  
+Ehart             = +1.33849589e-02 [au]  
+EVxc              = -3.72037030e+00 [au]  
+Exc               = -2.86231423e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51553289e+01 [au]  
+Fermi             = -4.83206374e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.31487147e+00 [eV]  
+norm(out-in)/norm(in) = +8.28596498e-02 
+Efree diff per atom   = +1.13715504e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.044410609 [s]
+
+Total wall clock time for this SCF iteration = 0.46698461 [s]
+
+*********************************************************************
+SCF iteration # 25
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0048878863
+Time for iterFFTFine      = 8  timeFFTFine      = 0.045804236
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038098171
+Time for iterOther        = 1  timeOther        = 0.0099276453
+Time for psi.AddMultSpinorFineR2C is 0.061040487 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053578131
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048373863
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00035881624
+Time for iterOther        = 1  timeOther        = 0.0085147694
+Time for psi.AddMultSpinorFineR2C is 0.062639166 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0051548034
+Time for iterFFTFine      = 8  timeFFTFine      = 0.049879514
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037000701
+Time for iterOther        = 1  timeOther        = 0.0094361939
+Time for psi.AddMultSpinorFineR2C is 0.064914726 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053957812
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047510654
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038864091
+Time for iterOther        = 1  timeOther        = 0.0086829923
+Time for psi.AddMultSpinorFineR2C is 0.062017538 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0013916906
+
+The minimum norm of the residual is 9.0446889e-06
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0052207075
+Time for iterGemmN     = 20  timeGemmN     = 0.0054067895
+Time for iterAllreduce = 31  timeAllreduce = 0.00098362565
+Time for iterAlltoallv = 13  timeAlltoallv = 0.019005481
+Time for iterSpinor    = 7  timeSpinor    = 0.26954851
+Time for iterTrsm      = 1  timeTrsm      = 0.00015480816
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00043024495
+
+Time for the eigensolver is 0.3125556 [s]
+
+Time for ham.EigVal() in PWDFT is 7.1898103e-07 [s]
+
+Time for computing occupation rate in PWDFT is 5.2526593e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.065168995 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050471723 [s]
+
+Time for computing XC potential in PWDFT is 0.019460082 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025805123 [s]
+
+Time for computing total potential in PWDFT is 0.0016667508 [s]
+
+Time for computing energy in PWDFT is 0.0007100068 [s]
+
+band#    = 0    eigval   = -2.32779837e-01 resval   = +9.04468894e-06 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93120241e-01 resval   = +2.05729016e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.92576263e-01 resval   = +1.79988804e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88512239e-02 resval   = +6.66054746e-05 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.77852512e-02 resval   = +7.46590938e-05 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50322901e-02 resval   = +1.81132835e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11535687e-02 resval   = +1.27777827e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.80092616e-02 resval   = +1.39169058e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71327811e+01 [au]  
+Efree             = -1.71327811e+01 [au]  
+EfreeHarris       = -1.71339448e+01 [au]  
+Ekin              = -1.97861587e+00 [au]  
+Ehart             = +1.21059401e-02 [au]  
+EVxc              = -3.71988258e+00 [au]  
+Exc               = -2.86194191e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51541653e+01 [au]  
+Fermi             = -4.80092616e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.30639850e+00 [eV]  
+norm(out-in)/norm(in) = +7.81017341e-02 
+Efree diff per atom   = +7.27263244e-05 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.049219623 [s]
+
+Total wall clock time for this SCF iteration = 0.47959265 [s]
+
+*********************************************************************
+SCF iteration # 26
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053475685
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047417954
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038514659
+Time for iterOther        = 1  timeOther        = 0.0098356679
+Time for psi.AddMultSpinorFineR2C is 0.063025799 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052620173
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047896124
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00035992637
+Time for iterOther        = 1  timeOther        = 0.0081729703
+Time for psi.AddMultSpinorFineR2C is 0.061756656 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0056806803
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047480427
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037213415
+Time for iterOther        = 1  timeOther        = 0.0087762177
+Time for psi.AddMultSpinorFineR2C is 0.062350716 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053747222
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047711432
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037356839
+Time for iterOther        = 1  timeOther        = 0.0084314942
+Time for psi.AddMultSpinorFineR2C is 0.061931606 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0023405469
+
+The minimum norm of the residual is 6.1646406e-06
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0047385655
+Time for iterGemmN     = 20  timeGemmN     = 0.0052252822
+Time for iterAllreduce = 31  timeAllreduce = 0.0016095787
+Time for iterAlltoallv = 13  timeAlltoallv = 0.021071356
+Time for iterSpinor    = 7  timeSpinor    = 0.26794209
+Time for iterTrsm      = 1  timeTrsm      = 0.00015122816
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00036577135
+
+Time for the eigensolver is 0.32181038 [s]
+
+Time for ham.EigVal() in PWDFT is 1.0952353e-06 [s]
+
+Time for computing occupation rate in PWDFT is 4.7311187e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061930016 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050507858 [s]
+
+Time for computing XC potential in PWDFT is 0.018327713 [s]
+
+Time for computing Hartree potential in PWDFT is 0.024747819 [s]
+
+Time for computing total potential in PWDFT is 0.00094978884 [s]
+
+Time for computing energy in PWDFT is 0.00067988038 [s]
+
+band#    = 0    eigval   = -2.32784301e-01 resval   = +6.16464056e-06 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93309708e-01 resval   = +9.51735172e-06 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.92393246e-01 resval   = +8.48144572e-06 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88474321e-02 resval   = +3.04108769e-05 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.77981959e-02 resval   = +2.56933799e-05 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.50394604e-02 resval   = +1.33769024e-05 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11502851e-02 resval   = +2.00150138e-05 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.78348324e-02 resval   = +2.34054691e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71315507e+01 [au]  
+Efree             = -1.71315507e+01 [au]  
+EfreeHarris       = -1.71324802e+01 [au]  
+Ekin              = -1.97831492e+00 [au]  
+Ehart             = +1.11802823e-02 [au]  
+EVxc              = -3.71990138e+00 [au]  
+Exc               = -2.86195683e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51532357e+01 [au]  
+Fermi             = -4.78348324e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.30165204e+00 [eV]  
+norm(out-in)/norm(in) = +7.56217597e-02 
+Efree diff per atom   = +5.80961571e-05 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.04488514 [s]
+
+Total wall clock time for this SCF iteration = 0.47511023 [s]
+
+*********************************************************************
+SCF iteration # 27
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0057733133
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050228599
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00045200065
+Time for iterOther        = 1  timeOther        = 0.010736417
+Time for psi.AddMultSpinorFineR2C is 0.067237001 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0057169273
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050331198
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00042216107
+Time for iterOther        = 1  timeOther        = 0.0090499446
+Time for psi.AddMultSpinorFineR2C is 0.065583885 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0055395216
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050213963
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00040027499
+Time for iterOther        = 1  timeOther        = 0.0093303397
+Time for psi.AddMultSpinorFineR2C is 0.065535124 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053309426
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048915159
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0003772676
+Time for iterOther        = 1  timeOther        = 0.0087121651
+Time for psi.AddMultSpinorFineR2C is 0.06338704 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0051994877
+
+The minimum norm of the residual is 1.997015e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0055439174
+Time for iterGemmN     = 20  timeGemmN     = 0.0058197752
+Time for iterAllreduce = 31  timeAllreduce = 0.00027507544
+Time for iterAlltoallv = 13  timeAlltoallv = 0.012273625
+Time for iterSpinor    = 7  timeSpinor    = 0.28108065
+Time for iterTrsm      = 1  timeTrsm      = 0.00019266829
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00043376163
+
+Time for the eigensolver is 0.31753619 [s]
+
+Time for ham.EigVal() in PWDFT is 8.2328916e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.61936e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.061516758 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050484762 [s]
+
+Time for computing XC potential in PWDFT is 0.0185114 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025022153 [s]
+
+Time for computing total potential in PWDFT is 0.0010466538 [s]
+
+Time for computing energy in PWDFT is 0.00074166432 [s]
+
+band#    = 0    eigval   = -2.32823482e-01 resval   = +1.99701503e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.94059258e-01 resval   = +3.79646909e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91699936e-01 resval   = +3.77751352e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88198552e-02 resval   = +1.20299629e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.79046547e-02 resval   = +7.14456061e-05 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.51014854e-02 resval   = +1.67494253e-04 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11247796e-02 resval   = +1.81276999e-04 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.75042274e-02 resval   = +5.19948772e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71247746e+01 [au]  
+Efree             = -1.71247746e+01 [au]  
+EfreeHarris       = -1.71313111e+01 [au]  
+Ekin              = -1.97807536e+00 [au]  
+Ehart             = +3.94879739e-03 [au]  
+EVxc              = -3.71696465e+00 [au]  
+Exc               = -2.85971507e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51466992e+01 [au]  
+Fermi             = -4.75042274e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.29265582e+00 [eV]  
+norm(out-in)/norm(in) = +6.15840607e-02 
+Efree diff per atom   = +4.08532058e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.044242576 [s]
+
+Total wall clock time for this SCF iteration = 0.47054666 [s]
+
+*********************************************************************
+SCF iteration # 28
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0052304231
+Time for iterFFTFine      = 8  timeFFTFine      = 0.0471575
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00038279966
+Time for iterOther        = 1  timeOther        = 0.0098214597
+Time for psi.AddMultSpinorFineR2C is 0.06263556 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005338829
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046950407
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036038458
+Time for iterOther        = 1  timeOther        = 0.0083280914
+Time for psi.AddMultSpinorFineR2C is 0.061002675 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0059108734
+Time for iterFFTFine      = 8  timeFFTFine      = 0.049407292
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00043840706
+Time for iterOther        = 1  timeOther        = 0.0099303611
+Time for psi.AddMultSpinorFineR2C is 0.065740213 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053317696
+Time for iterFFTFine      = 8  timeFFTFine      = 0.050060403
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00040099025
+Time for iterOther        = 1  timeOther        = 0.0095238499
+Time for psi.AddMultSpinorFineR2C is 0.065368738 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0058548747
+
+The minimum norm of the residual is 1.1989357e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.005633302
+Time for iterGemmN     = 20  timeGemmN     = 0.0057114251
+Time for iterAllreduce = 31  timeAllreduce = 0.00087789819
+Time for iterAlltoallv = 13  timeAlltoallv = 0.016528372
+Time for iterSpinor    = 7  timeSpinor    = 0.27474819
+Time for iterTrsm      = 1  timeTrsm      = 0.00015670434
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00046813861
+
+Time for the eigensolver is 0.31552927 [s]
+
+Time for ham.EigVal() in PWDFT is 7.9721212e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.7311187e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.063936889 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00063245371 [s]
+
+Time for computing XC potential in PWDFT is 0.01979978 [s]
+
+Time for computing Hartree potential in PWDFT is 0.027256384 [s]
+
+Time for computing total potential in PWDFT is 0.0010725185 [s]
+
+Time for computing energy in PWDFT is 0.0008970201 [s]
+
+band#    = 0    eigval   = -2.32861159e-01 resval   = +1.19893572e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.94310800e-01 resval   = +1.37751418e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91512728e-01 resval   = +1.26791752e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.88798756e-02 resval   = +1.05298298e-04 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.79190512e-02 resval   = +1.24675286e-04 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.51569625e-02 resval   = +7.71141341e-05 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11258099e-02 resval   = +4.23742096e-05 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.79719392e-02 resval   = +5.85487466e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71240277e+01 [au]  
+Efree             = -1.71240277e+01 [au]  
+EfreeHarris       = -1.71261759e+01 [au]  
+Ekin              = -1.97947665e+00 [au]  
+Ehart             = +1.48196998e-03 [au]  
+EVxc              = -3.71562013e+00 [au]  
+Exc               = -2.85868926e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51445511e+01 [au]  
+Fermi             = -4.79719392e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.30538291e+00 [eV]  
+norm(out-in)/norm(in) = +6.84125025e-02 
+Efree diff per atom   = +1.34257402e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.047047172 [s]
+
+Total wall clock time for this SCF iteration = 0.47742557 [s]
+
+*********************************************************************
+SCF iteration # 29
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053802095
+Time for iterFFTFine      = 8  timeFFTFine      = 0.049117133
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0004013218
+Time for iterOther        = 1  timeOther        = 0.010159444
+Time for psi.AddMultSpinorFineR2C is 0.065105591 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053407438
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046783663
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00035312772
+Time for iterOther        = 1  timeOther        = 0.0081059746
+Time for psi.AddMultSpinorFineR2C is 0.060606435 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053761639
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047988631
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036626309
+Time for iterOther        = 1  timeOther        = 0.0083758831
+Time for psi.AddMultSpinorFineR2C is 0.062140573 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005450435
+Time for iterFFTFine      = 8  timeFFTFine      = 0.04779068
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00036219507
+Time for iterOther        = 1  timeOther        = 0.0084591135
+Time for psi.AddMultSpinorFineR2C is 0.062103756 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0045782949
+
+The minimum norm of the residual is 1.1841914e-05
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0053447969
+Time for iterGemmN     = 20  timeGemmN     = 0.0052925274
+Time for iterAllreduce = 31  timeAllreduce = 0.00093069673
+Time for iterAlltoallv = 13  timeAlltoallv = 0.016984515
+Time for iterSpinor    = 7  timeSpinor    = 0.26879853
+Time for iterTrsm      = 1  timeTrsm      = 0.00016012043
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00049660355
+
+Time for the eigensolver is 0.30522742 [s]
+
+Time for ham.EigVal() in PWDFT is 6.9662929e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.3213367e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.062723115 [s]
+
+ 
+Time for computing total xc energy in XC is 0.0005363524 [s]
+
+Time for computing XC potential in PWDFT is 0.018709939 [s]
+
+Time for computing Hartree potential in PWDFT is 0.024989408 [s]
+
+Time for computing total potential in PWDFT is 0.00096504763 [s]
+
+Time for computing energy in PWDFT is 0.00073140115 [s]
+
+band#    = 0    eigval   = -2.32846548e-01 resval   = +1.18419135e-05 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.94009255e-01 resval   = +1.36787239e-05 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91799603e-01 resval   = +1.95831431e-05 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.89484709e-02 resval   = +4.85555278e-05 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.78232025e-02 resval   = +5.16947936e-05 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.51260755e-02 resval   = +3.62438404e-05 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11536177e-02 resval   = +4.80787038e-05 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.89292815e-02 resval   = +4.57829492e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71297936e+01 [au]  
+Efree             = -1.71297936e+01 [au]  
+EfreeHarris       = -1.71258232e+01 [au]  
+Ekin              = -1.98127211e+00 [au]  
+Ehart             = +5.89193616e-03 [au]  
+EVxc              = -3.71747924e+00 [au]  
+Exc               = -2.86010883e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51485215e+01 [au]  
+Fermi             = -4.89292815e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.33143352e+00 [eV]  
+norm(out-in)/norm(in) = +7.84258278e-02 
+Efree diff per atom   = +2.48151708e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.043851927 [s]
+
+Total wall clock time for this SCF iteration = 0.45905217 [s]
+
+*********************************************************************
+SCF iteration # 30
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 8
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053863898
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046955276
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00040850416
+Time for iterOther        = 1  timeOther        = 0.0099536031
+Time for psi.AddMultSpinorFineR2C is 0.062742542 [s]
+
+Minimum tolerance is 0.001
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0054786392
+Time for iterFFTFine      = 8  timeFFTFine      = 0.048070647
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00035113469
+Time for iterOther        = 1  timeOther        = 0.0082125105
+Time for psi.AddMultSpinorFineR2C is 0.062137969 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.0053843409
+Time for iterFFTFine      = 8  timeFFTFine      = 0.047124323
+Time for iterNonlocal     = 4  timeNonlocal     = 0.00037483871
+Time for iterOther        = 1  timeOther        = 0.0083625652
+Time for psi.AddMultSpinorFineR2C is 0.061279755 [s]
+
+Time for iterFFTCoarse    = 8  timeFFTCoarse    = 0.005195111
+Time for iterFFTFine      = 8  timeFFTFine      = 0.046439234
+Time for iterNonlocal     = 4  timeNonlocal     = 0.0003454648
+Time for iterOther        = 1  timeOther        = 0.0081201009
+Time for psi.AddMultSpinorFineR2C is 0.060127117 [s]
+
+
+After 3 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.0057116005
+
+The minimum norm of the residual is 5.5727261e-06
+
+Time for iterGemmT     = 31  timeGemmT     = 0.0049739182
+Time for iterGemmN     = 20  timeGemmN     = 0.0052702427
+Time for iterAllreduce = 31  timeAllreduce = 0.00059436634
+Time for iterAlltoallv = 13  timeAlltoallv = 0.0098552257
+Time for iterSpinor    = 7  timeSpinor    = 0.2647049
+Time for iterTrsm      = 1  timeTrsm      = 0.00014863908
+Time for iterMpirank0  = 23  timeMpirank0  = 0.00039510801
+
+Time for the eigensolver is 0.29379259 [s]
+
+Time for ham.EigVal() in PWDFT is 7.2270632e-07 [s]
+
+Time for computing occupation rate in PWDFT is 4.3213367e-07 [s]
+
+Raw data, sum of density          = 16
+Expected sum of density           = 16
+Raw data, sum of adjusted density = 16
+Time for computing density in PWDFT is 0.059235226 [s]
+
+ 
+Time for computing total xc energy in XC is 0.00050510839 [s]
+
+Time for computing XC potential in PWDFT is 0.017840184 [s]
+
+Time for computing Hartree potential in PWDFT is 0.025216665 [s]
+
+Time for computing total potential in PWDFT is 0.0011218153 [s]
+
+Time for computing energy in PWDFT is 0.0007346496 [s]
+
+band#    = 0    eigval   = -2.32839800e-01 resval   = +7.01151086e-06 occrate  = +1.00000000e+00 
+band#    = 1    eigval   = -1.93951691e-01 resval   = +5.57272605e-06 occrate  = +1.00000000e+00 
+band#    = 2    eigval   = -1.91845888e-01 resval   = +6.09142105e-06 occrate  = +1.00000000e+00 
+band#    = 3    eigval   = -8.89849493e-02 resval   = +4.31107726e-05 occrate  = +1.00000000e+00 
+band#    = 4    eigval   = -8.77737817e-02 resval   = +3.64096068e-05 occrate  = +1.00000000e+00 
+band#    = 5    eigval   = -7.51096353e-02 resval   = +4.49982378e-05 occrate  = +1.00000000e+00 
+band#    = 6    eigval   = -7.11603743e-02 resval   = +4.78967792e-05 occrate  = +1.00000000e+00 
+band#    = 7    eigval   = -4.91895159e-02 resval   = +5.71160053e-03 occrate  = +1.00000000e+00 
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+Etot              = -1.71362265e+01 [au]  
+Efree             = -1.71362265e+01 [au]  
+EfreeHarris       = -1.71302328e+01 [au]  
+Ekin              = -1.98171127e+00 [au]  
+Ehart             = +1.25150313e-02 [au]  
+EVxc              = -3.72014109e+00 [au]  
+Exc               = -2.86214131e+00 [au]  
+EVdw              = +0.00000000e+00 [au]  
+Eself             = +1.60000000e+01 [au]  
+EIonSR            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+Ecor              = -1.51545153e+01 [au]  
+Fermi             = -4.91895159e-02 [au]  
+Total charge      = +1.60000000e+01 [au]  
+HOMO              = -1.33851486e+00 [eV]  
+norm(out-in)/norm(in) = +9.28364979e-02 
+Efree diff per atom   = +3.74607824e-04 
+  Rank of dfmat = 9               
+  Rcond = +1.00000000e-12 
+Time for computing potential mixing in PWDFT is 0.044208996 [s]
+
+Total wall clock time for this SCF iteration = 0.44398067 [s]
+Time for computing the local potential contribution of the force is 0.07174531 [s]
+
+Time for computing the nonlocal potential contribution of the force is 0.22459636 [s]
+
+Total time for FFT in the computation of the force is 0.23386355 [s]
+
+
+*********************************************************************
+Energy
+*********************************************************************
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + EIonSR + EVdw + Eext
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+! Etot            = -1.71362265e+01 [au]  
+! Efree           = -1.71362265e+01 [au]  
+! EfreeHarris     = -1.71302328e+01 [au]  
+! EVdw            = +0.00000000e+00 [au]  
+Eext              = +0.00000000e+00 [au]  
+! Fermi           = -4.91895159e-02 [au]  
+! HOMO            = -1.33851486e+00 [ev]  
+
+*********************************************************************
+Atomic Force
+*********************************************************************
+
+atom    0    force   -3.06300757e-02 -4.12401360e-01 -6.62601489e-02 
+atom    1    force   -2.17297594e-02 -4.13695912e-01 +5.74573833e-02 
+atom    2    force   -1.17534834e-02 -3.51651662e-01 +6.90243172e-02 
+atom    3    force   -4.60395168e-02 -3.66064046e-01 -5.84392292e-02 
+atom    4    force   -8.06865479e-02 -3.95516399e-01 -3.15842753e-01 
+atom    5    force   -8.25286096e-02 -4.10371954e-01 +3.19055501e-01 
+atom    6    force   +6.94917409e-02 -3.45789751e-01 +3.29585492e-01 
+atom    7    force   +3.91498849e-02 -3.54469808e-01 -3.20493675e-01 
+atom    8    force   +6.34803556e-02 +3.31497697e-01 -2.32881301e-02 
+atom    9    force   +6.38000389e-02 +4.32082283e-01 -2.29764461e-02 
+atom    10   force   -3.88430035e-02 +2.25428895e-01 +1.96179121e-02 
+atom    11   force   -3.45370059e-02 +5.26307768e-01 +1.60006536e-02 
+atom    12   force   -4.99735319e-04 +5.32360663e-01 -2.96649692e-02 
+atom    13   force   -6.69659530e-03 +2.40269276e-01 -1.44797788e-02 
+atom    14   force   +4.14235752e-02 +4.23600400e-01 +4.63126334e-03 
+atom    15   force   +3.76665895e-02 +3.32927910e-01 +1.64419043e-02 
+
+force for centroid  : -3.89321478e-02 -5.48600066e-03 -1.96307038e-02 
+Max force magnitude : +5.33186773e-01 
+
+
+Output the structure information
+! Total time for the SCF iteration = 14.735752 [s]

@@ -1,0 +1,9 @@
+{
+    "rmse_val": 65.0,
+    "rmse_trn": 65.0,
+    "rmse_e_val": 2.96,
+    "rmse_e_trn": 2.96,
+    "rmse_f_val": 61.6,
+    "rmse_f_trn": 61.6,
+    "lr": 5.9e-08
+}

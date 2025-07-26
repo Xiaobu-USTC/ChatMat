@@ -1,0 +1,8 @@
+#  step      rmse_val    rmse_trn    rmse_e_val  rmse_e_trn    rmse_f_val  rmse_f_trn         lr
+# If there is no available reference data, rmse_*_{val,trn} will print nan
+      1      9.21e+03    9.21e+03      9.18e-01    8.77e-01      2.91e+02    2.91e+02    1.0e-03
+    200      4.15e+03    4.15e+03      4.11e+00    4.11e+00      2.83e+02    2.83e+02    2.1e-04
+    400      1.51e+03    1.51e+03      3.80e+00    3.80e+00      2.83e+02    2.83e+02    2.8e-05
+    600      6.03e+02    6.03e+02      3.67e+00    3.67e+00      2.83e+02    2.83e+02    3.5e-06
+    800      3.41e+02    3.41e+02      3.63e+00    3.63e+00      2.83e+02    2.83e+02    4.6e-07
+   1000      2.91e+02    2.91e+02      3.62e+00    3.62e+00      2.83e+02    2.83e+02    5.9e-08
