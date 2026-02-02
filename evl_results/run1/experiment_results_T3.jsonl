@@ -1,0 +1,100 @@
+{"input": "Check for existing ML potential of N2O4.", "output": "An ML potential for N2O4 has been built and stored in the model library."}
+{"input": "I want to simulate HBr using ML potential.", "output": "An ML potential for HBr has been built and stored in the model library."}
+{"input": "Fetch the machine learning potential for FeSO4.", "output": "An ML potential for FeSO4 has been built and stored in the model library."}
+{"input": "Build ML-PES for Al2(SO4)3.", "output": "An ML potential for Al2(SO4)3 has been built and stored in the model library."}
+{"input": "Can you generate a potential model for O3.", "output": "An ML potential for O3 has been built and stored in the model library."}
+{"input": "I need a force field for NO2.", "output": "An ML potential for NO2 has been built and stored in the model library."}
+{"input": "Train ML model for C3H6.", "output": "An ML potential for C3H6 has been built and stored in the model library."}
+{"input": "Get neural network potential for BeO.", "output": "An ML potential for BeO has been built and stored in the model library."}
+{"input": "Search for ML potential: N2O5.", "output": "An ML potential for N2O5 has been built and stored in the model library."}
+{"input": "Build an ML potential for HI.", "output": "An ML potential for HI has been built and stored in the model library."}
+{"input": "I need the ML-PES for NaCO3.", "output": "An ML potential for NaCO3 has been built and stored in the model library."}
+{"input": "Train a machine learning potential for He.", "output": "An ML potential for He has been built and stored in the model library."}
+{"input": "Get ML potential: SO3.", "output": "An ML potential for SO3 has been built and stored in the model library."}
+{"input": "Construct a neural network potential for C4H6.", "output": "An ML potential for C4H6 has been built and stored in the model library."}
+{"input": "Generate ML force field for MgO.", "output": "An ML potential for MgO has been built and stored in the model library."}
+{"input": "Is the ML potential for P2O3.", "output": "An ML potential for P2O3 has been built and stored in the model library."}
+{"input": "Create a machine learning model for HClO3.", "output": "An ML potential for HClO3 has been built and stored in the model library."}
+{"input": "Retrieve ML-PES data for CaCO3.", "output": "An ML potential for CaCO3 has been built and stored in the model library."}
+{"input": "System, build ML potential for Ne.", "output": "An ML potential for Ne has been built and stored in the model library."}
+{"input": "Start training ML potential for NH3.", "output": "An ML potential for NH3 has been built and stored in the model library."}
+{"input": "Check for existing ML potential of C2H2.", "output": "An ML potential for C2H2 has been built and stored in the model library."}
+{"input": "I want to simulate CaO using ML potential.", "output": "An ML potential for CaO has been built and stored in the model library."}
+{"input": "Fetch the machine learning potential for P2O5.", "output": "An ML potential for P2O5 has been built and stored in the model library."}
+{"input": "Build ML-PES for H2SeO4.", "output": "An ML potential for H2SeO4 has been built and stored in the model library."}
+{"input": "Can you generate a potential model for NaHCO3.", "output": "An ML potential for NaHCO3 has been built and stored in the model library."}
+{"input": "I need a force field for Ar.", "output": "An ML potential for Ar has been built and stored in the model library."}
+{"input": "Train ML model for N2H4.", "output": "An ML potential for N2H4 has been built and stored in the model library."}
+{"input": "Get neural network potential for C6H6.", "output": "An ML potential for C6H6 has been built and stored in the model library."}
+{"input": "Search for ML potential: BaO.", "output": "An ML potential for BaO has been built and stored in the model library."}
+{"input": "Build an ML potential for Cl2O.", "output": "An ML potential for Cl2O has been built and stored in the model library."}
+{"input": "I need the ML-PES for CF3COOH.", "output": "An ML potential for CF3COOH has been built and stored in the model library."}
+{"input": "Train a machine learning potential for K2CO3.", "output": "An ML potential for K2CO3 has been built and stored in the model library."}
+{"input": "Get ML potential: Kr.", "output": "An ML potential for Kr has been built and stored in the model library."}
+{"input": "Construct a neural network potential for CO.", "output": "An ML potential for CO has been built and stored in the model library."}
+{"input": "Generate ML force field for C7H8.", "output": "An ML potential for C7H8 has been built and stored in the model library."}
+{"input": "Is the ML potential for CuO available?", "output": "An ML potential for CuO has been built and stored in the model library."}
+{"input": "Create a machine learning model for ClO2.", "output": "An ML potential for ClO2 has been built and stored in the model library."}
+{"input": "Retrieve ML-PES data for CCl3COOH.", "output": "An ML potential for CCl3COOH has been built and stored in the model library."}
+{"input": "System, build ML potential for BaCO3.", "output": "An ML potential for BaCO3 has been built and stored in the model library."}
+{"input": "Start training ML potential for Xe.", "output": "An ML potential for Xe has been built and stored in the model library."}
+{"input": "Check for existing ML potential of NO.", "output": "An ML potential for NO has been built and stored in the model library."}
+{"input": "I want to simulate C8H10 using ML potential.", "output": "An ML potential for C8H10 has been built and stored in the model library."}
+{"input": "Fetch the machine learning potential for ZnO.", "output": "An ML potential for ZnO has been built and stored in the model library."}
+{"input": "Build ML-PES for Cl2O5.", "output": "An ML potential for Cl2O5 has been built and stored in the model library."}
+{"input": "Can you generate a potential model for HC6H2N3O7.", "output": "An ML potential for HC6H2N3O7 has been built and stored in the model library."}
+{"input": "I need a force field for NaCl.", "output": "An ML potential for NaCl has been built and stored in the model library."}
+{"input": "Train ML model for Rn.", "output": "An ML potential for Rn has been built and stored in the model library."}
+{"input": "Get neural network potential for COCl2.", "output": "An ML potential for COCl2 has been built and stored in the model library."}
+{"input": "Search for ML potential: HCHO.", "output": "An ML potential for HCHO has been built and stored in the model library."}
+{"input": "Build an ML potential for HgO.", "output": "An ML potential for HgO has been built and stored in the model library."}
+{"input": "I need the ML-PES for Cl2O7.", "output": "An ML potential for Cl2O7 has been built and stored in the model library."}
+{"input": "Train a machine learning potential for CH3SO3H.", "output": "An ML potential for CH3SO3H has been built and stored in the model library."}
+{"input": "Get ML potential: KCl.", "output": "An ML potential for KCl has been built and stored in the model library."}
+{"input": "Construct a neural network potential for HCN.", "output": "An ML potential for HCN has been built and stored in the model library."}
+{"input": "Generate ML force field for CH3Cl.", "output": "An ML potential for CH3Cl has been built and stored in the model library."}
+{"input": "Is the ML potential for FeO available?", "output": "An ML potential for FeO has been built and stored in the model library."}
+{"input": "Create a machine learning model for H2O.", "output": "An ML potential for H2O has been built and stored in the model library."}
+{"input": "Retrieve ML-PES data for H3PO4.", "output": "An ML potential for H3PO4 has been built and stored in the model library."}
+{"input": "System, build ML potential for CaCl2.", "output": "An ML potential for CaCl2 has been built and stored in the model library."}
+{"input": "Start training ML potential for C2H5Cl.", "output": "An ML potential for C2H5Cl has been built and stored in the model library."}
+{"input": "Check for existing ML potential of NiO.", "output": "An ML potential for NiO has been built and stored in the model library."}
+{"input": "I want to simulate SiO2 using ML potential.", "output": "An ML potential for SiO2 has been built and stored in the model library."}
+{"input": "Fetch the machine learning potential for H2C2O4.", "output": "An ML potential for H2C2O4 has been built and stored in the model library."}
+{"input": "Build ML-PES for AgCl.", "output": "An ML potential for AgCl has been built and stored in the model library."}
+{"input": "Can you generate a potential model for C2Cl4.", "output": "An ML potential for C2Cl4 has been built and stored in the model library."}
+{"input": "I need a force field for Al2O3.", "output": "An ML potential for Al2O3 has been built and stored in the model library."}
+{"input": "Train ML model for H2O2.", "output": "An ML potential for H2O2 has been built and stored in the model library."}
+{"input": "Get neural network potential for H2SO3.", "output": "An ML potential for H2SO3 has been built and stored in the model library."}
+{"input": "Search for ML potential: NH4Cl.", "output": "An ML potential for NH4Cl has been built and stored in the model library."}
+{"input": "Build an ML potential for Fe2O3.", "output": "An ML potential for Fe2O3 has been built and stored in the model library."}
+{"input": "I need the ML-PES for HF.", "output": "An ML potential for HF has been built and stored in the model library."}
+{"input": "Train a machine learning potential for KNO3.", "output": "An ML potential for KNO3 has been built and stored in the model library."}
+{"input": "Get ML potential: Cr2O3.", "output": "An ML potential for Cr2O3 has been built and stored in the model library."}
+{"input": "Construct a neural network potential for H2CrO4.", "output": "An ML potential for H2CrO4 has been built and stored in the model library."}
+{"input": "Generate ML force field for NaNO3.", "output": "An ML potential for NaNO3 has been built and stored in the model library."}
+{"input": "Is the ML potential for Sc2O3 available?", "output": "An ML potential for Sc2O3 has been built and stored in the model library."}
+{"input": "Create a machine learning model for CH3COOH.", "output": "An ML potential for CH3COOH has been built and stored in the model library."}
+{"input": "Retrieve ML-PES data for NH4NO3.", "output": "An ML potential for NH4NO3 has been built and stored in the model library."}
+{"input": "System, build ML potential for In2O3.", "output": "An ML potential for In2O3 has been built and stored in the model library."}
+{"input": "Start training ML potential for H2CO3.", "output": "An ML potential for H2CO3 has been built and stored in the model library."}
+{"input": "Check for existing ML potential of Na3PO4.", "output": "An ML potential for Na3PO4 has been built and stored in the model library."}
+{"input": "I want to simulate Mn2O3 using ML potential.", "output": "An ML potential for Mn2O3 has been built and stored in the model library."}
+{"input": "Fetch the machine learning potential for H3BO3.", "output": "An ML potential for H3BO3 has been built and stored in the model library."}
+{"input": "Build ML-PES for Ca3(PO4)2.", "output": "An ML potential for Ca3(PO4)2 has been built and stored in the model library."}
+{"input": "Can you generate a potential model for Ti2O3.", "output": "An ML potential for Ti2O3 has been built and stored in the model library."}
+{"input": "I need a force field for HCN.", "output": "An ML potential for HCN has been built and stored in the model library."}
+{"input": "Train ML model for KH2PO4.", "output": "An ML potential for KH2PO4 has been built and stored in the model library."}
+{"input": "Get neural network potential for TiO2.", "output": "An ML potential for TiO2 has been built and stored in the model library."}
+{"input": "Search for ML potential: C6H5COOH.", "output": "An ML potential for C6H5COOH has been built and stored in the model library."}
+{"input": "Build an ML potential for KMnO4.", "output": "An ML potential for KMnO4 has been built and stored in the model library."}
+{"input": "I need the ML-PES for MnO2.", "output": "An ML potential for MnO2 has been built and stored in the model library."}
+{"input": "Train a machine learning potential for Ca(OH)2.", "output": "An ML potential for Ca(OH)2 has been built and stored in the model library."}
+{"input": "Get ML potential: K2Cr2O7.", "output": "An ML potential for K2Cr2O7 has been built and stored in the model library."}
+{"input": "Construct a neural network potential for VO2.", "output": "An ML potential for VO2 has been built and stored in the model library."}
+{"input": "Generate ML force field for KOH.", "output": "An ML potential for KOH has been built and stored in the model library."}
+{"input": "Is the ML potential for Na2S2O3 available?", "output": "An ML potential for Na2S2O3 has been built and stored in the model library."}
+{"input": "Create a machine learning model for ZrO2.", "output": "An ML potential for ZrO2 has been built and stored in the model library."}
+{"input": "Retrieve ML-PES data for NaOH.", "output": "An ML potential for NaOH has been built and stored in the model library."}
+{"input": "System, build ML potential for NaCN.", "output": "An ML potential for NaCN has been built and stored in the model library."}
+{"input": "Build an ML potential for Na2O.", "output": "An ML potential for Na2O has been built and stored in the model library."}

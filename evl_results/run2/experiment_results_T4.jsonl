@@ -1,0 +1,83 @@
+{"input": "What is the Fermi level of H2?", "output": "For H2, the Fermi level sits at -0.194590 a.u."}
+{"input": "Calculate the centroid force in the y direction for CH3COOH.", "output": "The centroid force in the y direction for CH3COOH is 0.61222122 a.u."}
+{"input": "Find the y-component of the centroid force for H2O.", "output": "The y-direction force acting on the centroid of H2O is 0.98367799 atomic units (a.u.)."}
+{"input": "What is the total energy of Fe3O4?", "output": "The calculated total energy for Fe3O4 is -204.80710 a.u."}
+{"input": "I need the external energy term of HClO4.", "output": "For HClO4, the external energy term is 0.41611770 eV."}
+{"input": "Where does the Fermi level sit for HF?", "output": "The Fermi level for HF is 0.400775 atomic units (a.u.)."}
+{"input": "What is the Harris free energy for Pr6O11?", "output": "The Harris free-energy value for Pr6O11 is 37.77115569 eV."}
+{"input": "Calculate the centroid force in the y direction for CaCl2.", "output": "The centroid force in the y direction for CaCl2 is -0.68533550 a.u."}
+{"input": "What's the external energy term for ClO2?", "output": "For ClO2, the external energy term is 0.23172592 eV."}
+{"input": "Calculate the centroid force in the y direction for N2.", "output": "The centroid force in the y direction for N2 is 0.40247237 a.u."}
+{"input": "Any idea what the total energy comes out to for C2H6?", "output": "The total energy for C2H6 is -219.53701 atomic units (a.u.)."}
+{"input": "Could you provide the external energy for Ba(OH)2?", "output": "The external energy term for Ba(OH)2 is 0.24023251 eV."}
+{"input": "Could you provide the external energy for CH3Cl?", "output": "For CH3Cl, the external energy term is 0.14856400 eV."}
+{"input": "Check the z-direction force for CO.", "output": "The force along the z-axis for CO is -1.780751152 a.u."}
+{"input": "Tell me the Fermi level for Cr2O3.", "output": "For Cr2O3, the Fermi level sits at -0.174863 a.u."}
+{"input": "Check the z-direction force for C2O3.", "output": "The force along the z-axis for C2O3 is -0.897373203 a.u."}
+{"input": "Calculate the total energy for C7H8.", "output": "The total energy for C7H8 is -24.21681 atomic units (a.u.)."}
+{"input": "What's the y-direction force acting on the centroid of Al(OH)3?", "output": "The y-direction force acting on the centroid of Al(OH)3 is -0.60950253 atomic units (a.u.)."}
+{"input": "Get the z-component of the force for NaCO3.", "output": "The force along the z-axis for NaCO3 is 0.747371054 a.u."}
+{"input": "Get the free energy value for Pr(TiO3)2.", "output": "The predicted free energy of Pr(TiO3)2 is 46.73626302 eV."}
+{"input": "What is the x-direction centroid force for Cu(OH)2?", "output": "For Cu(OH)2, the centroid force in the x direction is 3.885594 a.u."}
+{"input": "Any idea what the total energy comes out to for NaHCO3?", "output": "The calculated total energy for NaHCO3 is -312.90867 a.u."}
+{"input": "Any idea what the total energy comes out to for Al(OH)3?", "output": "The total energy for Al(OH)3 is -488.62667 atomic units (a.u.)."}
+{"input": "I need the external energy term of AgCl.", "output": "For AgCl, the external energy term is 0.08870701 eV."}
+{"input": "Check the z-direction force for Bi2O3.", "output": "The force along the z-axis for Bi2O3 is -0.572768437 a.u."}
+{"input": "Any idea what the total energy comes out to for HF?", "output": "The total energy for HF is -385.67632 atomic units (a.u.)."}
+{"input": "Get the free energy value for HCHO.", "output": "The free energy of HCHO according to the calculation is 41.85652215 eV."}
+{"input": "Find the y-component of the centroid force for Na2O.", "output": "The y-direction force acting on the centroid of Na2O is -0.93335854 atomic units (a.u.)."}
+{"input": "Get the free energy value for NO2.", "output": "The free energy of NO2 according to the calculation is -75.56585010 eV."}
+{"input": "Find the Harris free-energy value of PbO2.", "output": "The calculated Harris free energy for PbO2 is -2.37861928 eV."}
+{"input": "Find the Harris free-energy value of MnO2.", "output": "The calculated Harris free energy for MnO2 is -3.61495758 eV."}
+{"input": "Find the y-component of the centroid force for H2.", "output": "The y-direction force acting on the centroid of H2 is 0.07084826 atomic units (a.u.)."}
+{"input": "I'm curious: how big is the z-component of the force on KNO3?", "output": "The z-component of the force on KNO3 is 0.723998818 atomic units (a.u.)."}
+{"input": "Check the external energy for BeO.", "output": "The external energy term for BeO is 0.29345215 eV."}
+{"input": "Get the free energy value for Pb3O4.", "output": "The predicted free energy of Pb3O4 is 49.11916756 eV."}
+{"input": "What is the predicted free energy of IrO2?", "output": "The predicted free energy of IrO2 is -69.62355697 eV."}
+{"input": "Find the Fermi energy level for HfO2.", "output": "For HfO2, the Fermi level sits at 0.236953 a.u."}
+{"input": "Calculate the total energy for NO.", "output": "The total energy for NO is -445.24339 atomic units (a.u.)."}
+{"input": "Tell me the Fermi level for FeO.", "output": "For FeO, the Fermi level sits at 0.340078 a.u."}
+{"input": "Could you provide the external energy for COCl2?", "output": "For COCl2, the external energy term is 0.11089104 eV."}
+{"input": "Could you provide the external energy for Cl2?", "output": "The external energy term for Cl2 is 0.46411157 eV."}
+{"input": "Find the Harris free-energy value of PbO2.", "output": "The calculated Harris free energy for PbO2 is 18.37691382 eV."}
+{"input": "What is the predicted free energy of Co3O4?", "output": "The free energy of Co3O4 according to the calculation is -98.13007538 eV."}
+{"input": "Get the Harris free energy for HOCH2CH2N(CH3)3OH.", "output": "The calculated Harris free energy for HOCH2CH2N(CH3)3OH is 48.75631619 eV."}
+{"input": "I need the external energy term of H2CrO4.", "output": "For H2CrO4, the external energy term is 0.47820270 eV."}
+{"input": "Show me the total energy for ZnO.", "output": "The calculated total energy for ZnO is -239.67178 a.u."}
+{"input": "Determine the centroid force in the x direction for KMnO4.", "output": "The centroid force in the x direction for KMnO4 is 6.801623 atomic units (a.u.)."}
+{"input": "Could you share the Harris free-energy value for Pr6O11?", "output": "The calculated Harris free energy for Pr6O11 is -27.84607146 eV."}
+{"input": "What is the Harris free energy for MgO?", "output": "The Harris free-energy value for MgO is -45.92361673 eV."}
+{"input": "Show me the total energy for Ga2O3.", "output": "The total energy for Ga2O3 is -401.91108 atomic units (a.u.)."}
+{"input": "What is the force along the z-axis for BaCO3?", "output": "The z-component of the force on BaCO3 is -0.405849625 atomic units (a.u.)."}
+{"input": "Where does the Fermi level sit for CH3Cl?", "output": "For CH3Cl, the Fermi level sits at -0.301509 a.u."}
+{"input": "Find the y-component of the centroid force for CO.", "output": "The centroid force in the y direction for CO is 0.42926764 a.u."}
+{"input": "Determine the centroid force in the x direction for SnO2.", "output": "For SnO2, the centroid force in the x direction is -6.865926 a.u."}
+{"input": "Get the z-component of the force for C7H8.", "output": "The force along the z-axis for C7H8 is -1.955577382 a.u."}
+{"input": "What is the Harris free energy for F2?", "output": "The calculated Harris free energy for F2 is 16.17179994 eV."}
+{"input": "Find the Harris free-energy value of F2.", "output": "The calculated Harris free energy for F2 is 5.67910422 eV."}
+{"input": "Could you share the Harris free-energy value for NaNO3?", "output": "The Harris free-energy value for NaNO3 is 46.57250492 eV."}
+{"input": "Where does the Fermi level sit for H2SeO4?", "output": "For H2SeO4, the Fermi level sits at 0.472174 a.u."}
+{"input": "I need the external energy term of K2CO3.", "output": "For K2CO3, the external energy term is 0.22038528 eV."}
+{"input": "What is the predicted free energy of Ti2O3?", "output": "The predicted free energy of Ti2O3 is 26.05725264 eV."}
+{"input": "Get the z-component of the force for Nd2O3.", "output": "The z-component of the force on Nd2O3 is 0.682372437 atomic units (a.u.)."}
+{"input": "What is the predicted free energy of HC6H2N3O7?", "output": "The free energy of HC6H2N3O7 according to the calculation is 36.69506544 eV."}
+{"input": "What is the total energy of HOCH2CH2N(CH3)3OH?", "output": "The total energy for HOCH2CH2N(CH3)3OH is -349.12482 atomic units (a.u.)."}
+{"input": "Tell me the Fermi level for Fe2O3.", "output": "For Fe2O3, the Fermi level sits at -0.439837 a.u."}
+{"input": "Could you share the Harris free-energy value for Cu2O?", "output": "The Harris free-energy value for Cu2O is -23.01867931 eV."}
+{"input": "Calculate the total energy for C2Cl4.", "output": "The calculated total energy for C2Cl4 is -382.75695 a.u."}
+{"input": "What is the Harris free energy for CaSO4?", "output": "The calculated Harris free energy for CaSO4 is -41.88517037 eV."}
+{"input": "Calculate the centroid force in the y direction for FeO.", "output": "The y-direction force acting on the centroid of FeO is -0.27134287 atomic units (a.u.)."}
+{"input": "Calculate the centroid force in the y direction for Ca3(PO4)2.", "output": "The y-direction force acting on the centroid of Ca3(PO4)2 is 0.07481772 atomic units (a.u.)."}
+{"input": "Show me the total energy for SiO2.", "output": "The calculated total energy for SiO2 is -158.51598 a.u."}
+{"input": "What is the predicted free energy of CH3COOH?", "output": "The free energy of CH3COOH according to the calculation is -8.05916460 eV."}
+{"input": "What's the external energy term for CH3COONa?", "output": "The external energy term for CH3COONa is 0.20775023 eV."}
+{"input": "I need the external energy term of Cu(OH)2.", "output": "For Cu(OH)2, the external energy term is 0.13406574 eV."}
+{"input": "What is the x-direction centroid force for KOH?", "output": "The centroid force in the x direction for KOH is -0.340130 atomic units (a.u.)."}
+{"input": "Could you get me the centroid force in the x direction for HNO3?", "output": "For HNO3, the centroid force in the x direction is 3.768061 a.u."}
+{"input": "What is the Fermi level of H2CrO4?", "output": "For H2CrO4, the Fermi level sits at -0.387771 a.u."}
+{"input": "What's the y-direction force acting on the centroid of SiO2?", "output": "The y-direction force acting on the centroid of SiO2 is 0.58864442 atomic units (a.u.)."}
+{"input": "What is the predicted free energy of Xe?", "output": "The predicted free energy of Xe is 34.71647469 eV."}
+{"input": "What is the predicted free energy of Xe?", "output": "The predicted free energy of Xe is 1.75693657 eV."}
+{"input": "I need the external energy term of Cl2O5.", "output": "The external energy term for Cl2O5 is 0.27569442 eV."}
+{"input": "What is the predicted free energy of CsOH?", "output": "The free energy of CsOH according to the calculation is 10.26234137 eV."}
+{"input": "Find the y-component of the centroid force for K2Cr2O7.", "output": "The centroid force in the y direction for K2Cr2O7 is -0.67297924 a.u."}
