@@ -9,7 +9,7 @@ from ChatMat.tools import tools_load
 from langchain.callbacks.manager import CallbackManagerForChainRun
 
 
-class ChemAgent(Chain):
+class ChatMat(Chain):
     """A Chain that integrates LangChain agents for chemical data querying."""
     llm: BaseLanguageModel  # Explicitly declare llm field
     agent: Any
@@ -44,9 +44,9 @@ class ChemAgent(Chain):
         verbose: bool = False,
         search_internet: bool = True,
     ) -> Chain:
-        """Initializes the ChemAgent with the given LLM and configurations."""
+        """Initializes the ChatMat with the given LLM and configurations."""
         # Initialize tools
-        tools = tools_load.load_chemagent_tools(llm=llm, verbose=verbose, search_internet=search_internet)
+        tools = tools_load.load_ChatMat_tools(llm=llm, verbose=verbose, search_internet=search_internet)
         
         agent_kwargs = {
             'prefix': PREFIX,

@@ -8,26 +8,7 @@ from langchain.callbacks import StdOutCallbackHandler
 from langchain.callbacks.manager import CallbackManager
 from ChatMat.models_load import ModelsLoad
 from ChatMat.config import config as config_default
-from ChatMat.agent.chem_agent import ChemAgent
-
-# Initialize ChemAgent
-config = copy.deepcopy(config_default)
-search_internet = config['search_internet']
-verbose = config['verbose']
-
-llm = ModelsLoad(model='gpt-4o', temperature=0.2).get_llm()
-chemagent = ChemAgent.from_llm(
-    llm=llm, 
-    verbose=verbose, 
-    search_internet=search_internet,
-)
-
-# Define task
-task = (
-    "Generate the material structure of (H2O)64."
-    "Give me the charge density distribution of (HClO4)16."
-    "Please train the MLPES Construction of Al176Si24."
-)
+from ChatMat.agent.chem_agent import ChatMat
 
 def main(model='gpt-4o', temperature=0.0) -> str:
     config = copy.deepcopy(config_default)
@@ -40,15 +21,15 @@ def main(model='gpt-4o', temperature=0.0) -> str:
     # Initialize CallbackManager with StdOutCallbackHandler
     callback_manager = CallbackManager([StdOutCallbackHandler()])
 
-    # Initialize ChemAgent
-    chemagent = ChemAgent.from_llm(
+    # Initialize ChatMat
+    ChatMat = ChatMat.from_llm(
         llm=llm, 
         verbose=verbose, 
         search_internet=search_internet,
     )
     
     print ('#' * 50 + "\n")
-    print ('Welcome to ChemAgent!')
+    print ('Welcome to ChatMat!')
     print("\n" + "#"*30 + ' Question ' + "#"*30)
     print ('Please enter the question below >>')
     # question = input()
@@ -56,7 +37,7 @@ def main(model='gpt-4o', temperature=0.0) -> str:
     if abc_index:
         question = "What is the totle energy of Ga2O3?"
         try:
-            output = chemagent.invoke({"input": question}, callbacks=callback_manager)
+            output = ChatMat.invoke({"input": question}, callbacks=callback_manager)
         except ValueError as ve:
             print(f"Input validation error: {ve}")
             return
@@ -68,9 +49,9 @@ def main(model='gpt-4o', temperature=0.0) -> str:
         print ("#"*10 + ' Output ' + "#" * 30)
         print (output['output'])
         print ('\n')
-        print ('Thanks for using ChemAgent!')
+        print ('Thanks for using ChatMat!')
     else:
-        file_path = '/home/shuai-2204/code/AgentCode/ChemAgent2pl/experiment_results.jsonl' 
+        file_path = '/home/shuai-2204/code/AgentCode/ChatMat2pl/experiment_results.jsonl' 
         with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
@@ -80,7 +61,7 @@ def main(model='gpt-4o', temperature=0.0) -> str:
                 question = data["input"]
         
                 try:
-                    output = chemagent.invoke({"input": question}, callbacks=callback_manager)
+                    output = ChatMat.invoke({"input": question}, callbacks=callback_manager)
                 except ValueError as ve:
                     print(f"Input validation error: {ve}")
                     return
@@ -92,8 +73,8 @@ def main(model='gpt-4o', temperature=0.0) -> str:
                 print ("#"*10 + ' Output ' + "#" * 30)
                 print (output['output'])
                 print ('\n')
-                print ('Thanks for using ChemAgent!')
-                output_path = "/home/shuai-2204/code/AgentCode/ChemAgent2pl/experiment_results_0605.jsonl"
+                print ('Thanks for using ChatMat!')
+                output_path = "/home/shuai-2204/code/AgentCode/ChatMat2pl/experiment_results_0605.jsonl"
                 with open(output_path, "a", encoding="utf-8") as outfile:
                     outfile.write(json.dumps(output['output'], ensure_ascii=False) + "\n")
                 # return output
