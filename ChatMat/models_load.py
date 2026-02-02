@@ -19,16 +19,12 @@ class ModelsLoad:
             self.llm = self.get_ollama_llm()
 
     def get_openai_llm(self) -> BaseLanguageModel:
-        openai_api_key = os.getenv("sk-jhpSz0Lt4N7RGTQT6e7487B110034264804dA3F81000D609")
-        openai_api_base = os.getenv("http://rerverseapi.workergpt.cn/v1")
-        openai_api_key = "sk-jhpSz0Lt4N7RGTQT6e7487B110034264804dA3F81000D609"
-        openai_api_base = "http://rerverseapi.workergpt.cn/v1"
         
         llm = ChatOpenAI(
             model_name=self.m_name,
             temperature=self.temperature,
-            openai_api_key="sk-jhpSz0Lt4N7RGTQT6e7487B110034264804dA3F81000D609",
-            openai_api_base="http://rerverseapi.workergpt.cn/v1"
+            openai_api_key="",
+            openai_api_base=""
         )
         return llm
 
