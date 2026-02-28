@@ -44,7 +44,7 @@ pip install -r requeirements.txt
 
 Before running ChatMat, you must configure the necessary API keys (e.g., OpenAI API key, SerpAPI key, Materials Project API key, etc.).
 
-# Important: You need to update the API keys in the specific configuration file:
+### Important: You need to update the API keys in the specific configuration file:
 
 Open ChatMat/ChatMat/models_load.py and replace the placeholder strings with your actual API keys.
 
