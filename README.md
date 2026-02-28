@@ -40,7 +40,15 @@ ChatMat has been quantitatively benchmarked across multiple complex tasks, showi
 pip install -r requeirements.txt
 ```
 
-## How to use ChatMat
+## Configuration and API Keys
+
+Before running ChatMat, you must configure the necessary API keys (e.g., OpenAI API key, SerpAPI key, Materials Project API key, etc.).
+
+# Important: You need to update the API keys in the specific configuration file:
+
+Open ChatMat/ChatMat/models_load.py and replace the placeholder strings with your actual API keys.
+
+Alternatively, for the OpenAI API key, you can add the following line to your .bashrc or .bash_profile:
 
 Add the following line to `.bashrc` for the openai api key. 
 
@@ -48,6 +56,7 @@ Add the following line to `.bashrc` for the openai api key.
 # openai api key
 export OPENAI_API_KEY="enter_your_api_key"
 ```
+## How to use ChatMat
 
 You can use it by running ChatMat's `main` function.
 
