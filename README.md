@@ -11,13 +11,13 @@ Execute end-to-end workflows in computational materials science
 
 The system includes a Manager agent that orchestrates four role-specific agents:
 
-🧪 Property Searcher – Retrieves material data from databases
+🧪 Property Depositor – Retrieves material data from databases
 
 🧮 Computing Designer – Designs appropriate simulation pipelines
 
-⚛️ FP Operator – Performs high-accuracy first-principles (DFT) calculations
+⚛️ DFT Operator – Performs high-accuracy first-principles (DFT) calculations
 
-🤖 ML-PES Performer – Constructs machine learning-based potential energy models
+🤖 ML Performer – Constructs machine learning-based potential energy models
 
 Together, these agents enable ChatMat to bridge data-driven and physics-based methods into a unified, autonomous pipeline.
 
